@@ -1,0 +1,13 @@
+
+name: Brian Sinkovec
+title: brian sinkovec
+email: 
+description: # TODO >-
+
+# logo: /assets/images/bio-photo.jpg
+baseurl: ""
+url: "https://sinkovec.github.io"
+
+github_username:  sinkovec
+
+theme: jekyll-theme-minimal
