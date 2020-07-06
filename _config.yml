@@ -2,12 +2,13 @@
 name: Brian Sinkovec
 title: brian sinkovec
 email: 
-description: # TODO >-
+# description: # TODO >-
 
 # logo: /assets/images/bio-photo.jpg
 baseurl: ""
 url: "https://sinkovec.github.io"
 
 github_username:  sinkovec
+xing_url: https://xing.com/profile/Brian_Sinkovec/cv
 
 theme: jekyll-theme-minimal

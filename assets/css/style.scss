@@ -13,6 +13,14 @@ h1, h2, h3, h4, h5, h6 {
     color: whitesmoke;
 }
 
-section {
-    font: 14px/1.5 "Hack Nerd Font", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1, section {
+    font-family: "Hack Nerd Font", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    height: 2em;
+}
+
+.fa {
+    padding: 10px;
 }
