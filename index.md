@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About
+# About
 
 Hi, my name is Brian Sinkovec, currently studying computer science for my master degree at RWTH Aachen university.  
 I am interested in theoretical computer science and software development. 
