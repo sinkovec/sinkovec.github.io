@@ -4,12 +4,12 @@ title: brian sinkovec
 email: 
 # description: # TODO >-
 
-# logo: /assets/images/bio-photo.jpg
+logo: /assets/images/bio-photo.png
 baseurl: ""
 url: "https://sinkovec.github.io"
-
+repository: sinkovec/sinkovec.github.io
 github_username:  sinkovec
 linkedin_url: https://www.linkedin.com/in/brian-sinkovec-9541b8242/
 xing_url: https://xing.com/profile/Brian_Sinkovec/cv
 
-theme: jekyll-theme-minimal
+theme: minima

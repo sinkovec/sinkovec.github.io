@@ -1,22 +1,11 @@
 <header>
-    <h1>
-      <div id="typed-strings">
-        <p>Hello there</p>
-        <p>Welcome to my portfli</p>
-        <p>Welcome to my portfolio site</p>
-      </div>
-      <span id="typed"></span>
-    </h1>
+  <nav>
+    {% for item in site.data.navigation %}
+        <a href="{{ item.link }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
 
-    {% if site.logo %}
-      <img src="{{site.logo | relative_url}}" alt="Logo" />
-    {% endif %}
-
-    <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-    <p style="text-align: center;">
-      <a href="{{ site.github.owner_url }}" style="color:whitesmoke;"><i class="fa fa-github" style="font-size:32px;"></i></a>
-      <a href="{{ site.linkedin_url }}" style="color:whitesmoke;"><i class="fa fa-linkedin" style="font-size:32px;"></i></a>
-      <a href="{{ site.xing_url }}" style="color:whitesmoke;"><i class="fa fa-xing" style="font-size:32px;"></i></a>
-    </p>
+  {% for item in site.data.social %}
+    <a href="{{ item.link }}"><i class="fa fa-{{ item.name }}"></i></a>
+  {% endfor %}
 </header>
