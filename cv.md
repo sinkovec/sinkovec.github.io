@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: base
+title: cv
 ---
 
-Curriculum Vitae
+

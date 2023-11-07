@@ -1,15 +1,31 @@
 
-name: Brian Sinkovec
+author: 
+  name: Brian Sinkovec
+  email: bsin1807@gmail.com
+
 title: brian sinkovec
-email: 
-# description: # TODO >-
 
 logo: /assets/images/bio-photo.png
 baseurl: ""
 url: "https://sinkovec.github.io"
 repository: sinkovec/sinkovec.github.io
 github_username:  sinkovec
-linkedin_url: https://www.linkedin.com/in/brian-sinkovec-9541b8242/
-xing_url: https://xing.com/profile/Brian_Sinkovec/cv
+linkedin_username: brian-sinkovec-9541b8242/
+xing_username: Brian_Sinkovec
 
-theme: minima
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+  social_links:
+    - platform: envelope
+      user_url: mailto:bsin1807@gmail.com
+    - platform: github
+      user_url: https://github.com/sinkovec
+    - platform: linkedin
+      user_url: https://linkedin.com/in/brian-sinkovec-9541b8242
+    - platform: xing
+      user_url: https://xing.com/cv/Brian_Sinkovec
