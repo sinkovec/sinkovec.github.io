@@ -14,7 +14,7 @@ layout: home
     </h1>
 </div>
 
-Hi, my name is Brian Sinkovec and I'm an enthusiatic software engineer from Aachen, Germany.
+Hi, my name is Brian Sinkovec and I'm an enthusiastic software engineer from Aachen, Germany.
 I graduated from [RWTH Aachen](https://rwth-aachen.de) univserity in 2023 and obtained my masters degree in computer science with honors.
 Besides being a nerd, I like coffee, hiking, martial arts, Marvel, and probably a lot more.
 
