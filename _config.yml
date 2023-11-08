@@ -26,7 +26,7 @@ minima:
     - platform: linkedin
       user_url: https://linkedin.com/in/brian-sinkovec-9541b8242
     - platform: xing
-      user_url: https://xing.com/cv/Brian_Sinkovec
+      user_url: https://xing.com/profile/Brian_Sinkovec
 
 header_pages:
   - missing.md
