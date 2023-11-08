@@ -6,12 +6,13 @@ author:
 title: brian sinkovec
 
 baseurl: ""
-url: "https://sinkovec.github.io"
+url: "https://briansinkovec.dev"
 repository: sinkovec/sinkovec.github.io
 
 plugins:
   - jekyll-remote-theme
   - jemoji
+  - jekyll-sitemap
 
 remote_theme: jekyll/minima
 

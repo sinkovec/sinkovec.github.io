@@ -7,3 +7,5 @@ gem "webrick", "~> 1.8"
 
 gem "jekyll-remote-theme", "~> 0.4.3"
 gem "jemoji", "~> 0.12.0"
+
+gem "jekyll-sitemap", "~> 1.4"
