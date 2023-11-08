@@ -20,7 +20,7 @@ Besides being a nerd, I like coffee, hiking, martial arts, Marvel, and probably 
 
 Here are four facts about me:
 * Most interested in DevOps and security a.k.a. **DevSecOps**.
-* Proficient in Java backend development with Spring and Spring Boot, cloud-native technologies like Kubernetes, and a few other things :seedling: :cloud:.
+* Proficient in Java + Spring Boot, cloud technologies like k8s, and a few other things :seedling: :cloud:.
 * Clean code and *-as-code enthusiast. Strives to [KISS](https://en.wikipedia.org/wiki/KISS_principle) (like this website :wink:).
 * Always forgets the fourth one...
 
