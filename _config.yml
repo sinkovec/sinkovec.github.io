@@ -15,6 +15,7 @@ xing_username: Brian_Sinkovec
 
 plugins:
   - jekyll-remote-theme
+  - jemoji
 
 remote_theme: jekyll/minima
 

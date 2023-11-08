@@ -2,10 +2,29 @@
 layout: home
 ---
 
-Hi, my name is Brian Sinkovec, currently studying computer science for my master degree at RWTH Aachen university.  
-I am interested in theoretical computer science and software development. 
+<img class="bio-photo" src="{{ "/assets/images/bio-photo.png" | relative_url }}">
+<div class="index-title">
+    <h1>
+        <div id="typed-strings">
+            <p>Hello there</p>
+            <p>Welcome to my portfli</p>
+            <p>Welcome to my portfolio site</p>
+        </div>
+        <span id="typed"></span>
+    </h1>
+</div>
 
-Here are some of my projects I built in my free-time
-* [Foodbro](https://github.com/sinkovec/foodbro), a small android app to store the your own family recipes (yummy!)
-* [revealjs-docker](https://github.com/sinkovec/revealjs-docker), a docker setup to simplify use with reveal.js
-* My [dotfiles](https://github.com/sinkovec/dotfiles)
+Hi, my name is Brian Sinkovec and I'm an enthusiatic software engineer from Aachen, Germany.
+I graduated from [RWTH Aachen](https://rwth-aachen.de) univserity in 2023 and obtained my masters degree in computer science with honors.
+Besides being a nerd, I like coffee, hiking, martial arts, Marvel, and probably a lot more.
+
+Here are four facts about me:
+* Most interested in DevOps and security a.k.a. **DevSecOps**.
+* Proficient in Java backend development with Spring and Spring Boot, cloud-native technologies like Kubernetes, and a few other things :seedling: :cloud:.
+* Clean code and *-as-code enthusiast. Strives to [KISS](https://en.wikipedia.org/wiki/KISS_principle) (like this website :wink:).
+* Always forgets the fourth one...
+
+Feel free to [contact](mailto:bsin1807@gmail.com) me.
+Except you're a bot.
+Or a lizard.
+Then don't.
