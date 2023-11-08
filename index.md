@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: base
 ---
 
 <img class="bio-photo" src="{{ "/assets/images/bio-photo.png" | relative_url }}">
@@ -24,7 +24,7 @@ Here are four facts about me:
 * Clean code and *-as-code enthusiast. Strives to [KISS](https://en.wikipedia.org/wiki/KISS_principle) (like this website :wink:).
 * Always forgets the fourth one...
 
-Feel free to [contact](mailto:bsin1807@gmail.com) me.
+Feel free to [contact](mailto:{{ site.author.email }}) me.
 Except you're a bot.
 Or a lizard.
 Then don't.
