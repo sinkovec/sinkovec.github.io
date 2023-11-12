@@ -3,16 +3,16 @@ layout: base
 ---
 
 <section class="resume-section">
-    <h2>Education</h2>
+    <h2 class="resume-section-title">Education</h2>
 
     {% for item in site.data.education %}
-    <div style="margin: 1.5em 0 3em 0;">
-        <div style="line-height: 0.75em;">
-            <div style="display: flex; justify-content: space-between;">
-                <h3>{{ item.degree }}</h3>
-                <i>{{ item.year }}</i>
+    <div class="resume-item">
+        <div class="resume-item-header">
+            <div>
+                <h3 class="resume-item-title">{{ item.degree }}</h3>
+                <i class="resume-item-year">{{ item.year }}</i>
             </div>
-            <p>{{ item.university }}</p>
+            <i class="resume-item-subtitle">{{ item.university }}</i>
         </div>
         <p>{{ item.description }}</p>
     </div>

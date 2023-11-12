@@ -52,8 +52,40 @@ main {
 
 
 // resume style
-.resume-section h2::after {
-    content: '';
-    display: block;
-    border-bottom: 0.01em solid $dm-brand-color-light;
+.resume-section {
+    .resume-section-title::after {
+        content: '';
+        display: block;
+        border-bottom: 0.01em solid $dm-brand-color-light;
+    }
+
+    .resume-item {
+        margin: 1.5em 0 3em 0;
+
+        .resume-item-header {
+            margin-bottom: .5em;
+
+            div {
+                display: flex; 
+                justify-content: space-between; 
+
+                @media screen and (max-width: 600px) {
+                    flex-direction: column-reverse;
+                }
+
+                .resume-item-title {
+                    margin-bottom: 0;
+                }
+            
+                .resume-item-year {
+                    color: $dm-brand-color-light;
+                    text-align: end;
+                }
+            }
+
+            .resume-item-subtitle {
+                color: $dm-brand-color-light;
+            }
+        }
+    }
 }
