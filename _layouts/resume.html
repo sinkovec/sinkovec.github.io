@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{{ content }}
+
 <section class="resume-section">
     <h2 class="resume-section-title">Education</h2>
     {% for item in site.data.education %}
@@ -16,7 +18,7 @@ layout: base
 </section>
 
 <section class="resume-section">
-    <h2 class="resume-section-title">Experience</h2>
+    <h2 class="resume-section-title-right">Experience</h2>
     {% for item in site.data.experience %}
         {% include resume-item.html 
             title=item.role 
