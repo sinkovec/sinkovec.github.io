@@ -34,7 +34,10 @@ layout: base
     <h2 class="resume-section-title">Skills</h2>
     <div class="resume-skill-section">
         {% for item in site.data.skills %}
-            <span class="resume-item-tag">{{ item.name }}</span>
+            <span class="resume-item-tag" onclick='toggleItemDescription("resume-skill-item-description", "{{ forloop.index }}")'>{{ item.name }}</span>
         {% endfor %}
     </div>
+    {% for item in site.data.skills %}
+        <p id="resume-skill-item-description-{{ forloop.index }}" class="resume-skill-item-description hidden">{{ item.description }}</p>
+    {% endfor %}
 </section>

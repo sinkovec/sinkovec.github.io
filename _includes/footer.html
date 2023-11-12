@@ -19,4 +19,14 @@
       backSpeed: 30,
       backDelay: 500
     });
+
+    function toggleItemDescription(prefix, index) {
+        document.querySelectorAll('.' + prefix).forEach((element) => {
+            if (element.id === prefix + "-" + index) {
+                element.classList.toggle("hidden");
+            } else {
+                element.classList.add("hidden")
+            }
+        });
+    }
 </script>
