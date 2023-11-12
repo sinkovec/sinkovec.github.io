@@ -29,3 +29,12 @@ layout: base
         %}
     {% endfor %}
 </section>
+
+<section class="resume-section">
+    <h2 class="resume-section-title">Skills</h2>
+    <div class="resume-skill-section">
+        {% for item in site.data.skills %}
+            <span class="resume-item-tag">{{ item.name }}</span>
+        {% endfor %}
+    </div>
+</section>
