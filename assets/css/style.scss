@@ -49,3 +49,11 @@ main {
     font-size: $small-font-size;
     text-align: center;
 }
+
+
+// resume style
+.resume-section h2::after {
+    content: '';
+    display: block;
+    border-bottom: 0.01em solid $dm-brand-color-light;
+}

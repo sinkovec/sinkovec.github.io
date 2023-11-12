@@ -29,6 +29,6 @@ minima:
       user_url: https://xing.com/profile/Brian_Sinkovec
 
 header_pages:
-  - missing.md
+  - resume.md
 
 # show_excerpts: true

@@ -2,4 +2,13 @@
 layout: base
 ---
 
-{{ content }}
+<section class="resume-section">
+    <h2>Education</h2>
+
+    {% for item in site.data.education %}
+        <h3>{{ item.degree }}</h3>
+        <p>{{ item.univserity }}</p>
+        <p>{{ item.year }}</p>
+        <p>{{ item.description }}</p>
+    {% endfor %}
+</section>
