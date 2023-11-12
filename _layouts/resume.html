@@ -8,11 +8,16 @@ layout: base
     {% for item in site.data.education %}
     <div class="resume-item">
         <div class="resume-item-header">
-            <div>
+            <div class="resume-item-title-container">
                 <h3 class="resume-item-title">{{ item.degree }}</h3>
                 <i class="resume-item-year">{{ item.year }}</i>
             </div>
             <i class="resume-item-subtitle">{{ item.university }}</i>
+            <div class="resume-item-tags-container">
+                {% for tag in item.tags %}
+                <span class="resume-item-tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
         </div>
         <p>{{ item.description }}</p>
     </div>
