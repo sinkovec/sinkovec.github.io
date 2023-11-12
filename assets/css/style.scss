@@ -97,9 +97,9 @@ main {
 .resume-item-tag {
     @include relative-font-size(0.9);
     margin: .25em .25em;
-    padding: .25em .5em;
-    border: 0.01em solid $brand-color-light;
+    padding: .4em 1em;
     border-radius: 2em;
+    background-color: #2a2a2a;
     transition-property: background-color, color;
     transition-duration: .5s;
 
