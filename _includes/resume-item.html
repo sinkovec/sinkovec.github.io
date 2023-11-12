@@ -1,0 +1,15 @@
+<div class="resume-item">
+    <div class="resume-item-header">
+        <div class="resume-item-title-container">
+            <h3 class="resume-item-title">{{ include.title }}</h3>
+            <i class="resume-item-year">{{ include.year }}</i>
+        </div>
+        <i class="resume-item-subtitle">{{ include.subtitle }}</i>
+        <div class="resume-item-tags-container">
+            {% for tag in include.tags %}
+                <span class="resume-item-tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+    </div>
+    <p>{{ include.description }}</p>
+</div>

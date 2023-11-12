@@ -4,22 +4,26 @@ layout: base
 
 <section class="resume-section">
     <h2 class="resume-section-title">Education</h2>
-
     {% for item in site.data.education %}
-    <div class="resume-item">
-        <div class="resume-item-header">
-            <div class="resume-item-title-container">
-                <h3 class="resume-item-title">{{ item.degree }}</h3>
-                <i class="resume-item-year">{{ item.year }}</i>
-            </div>
-            <i class="resume-item-subtitle">{{ item.university }}</i>
-            <div class="resume-item-tags-container">
-                {% for tag in item.tags %}
-                <span class="resume-item-tag">{{ tag }}</span>
-                {% endfor %}
-            </div>
-        </div>
-        <p>{{ item.description }}</p>
-    </div>
+        {% include resume-item.html 
+            title=item.degree 
+            year=item.year
+            subtitle=item.university
+            tags=item.tags
+            description=item.description
+        %}
+    {% endfor %}
+</section>
+
+<section class="resume-section">
+    <h2 class="resume-section-title">Experience</h2>
+    {% for item in site.data.experience %}
+        {% include resume-item.html 
+            title=item.role 
+            year=item.year
+            subtitle=item.company
+            tags=item.tags
+            description=item.description
+        %}
     {% endfor %}
 </section>
