@@ -6,6 +6,16 @@
 
 - name: DevOps
 
+- name: Azure
+
+- name: Kubernetes
+
+- name: CI/CD
+
+- name: Azure Pipelines
+
+- name: Jenkins
+
 - name: Java
 
 - name: Python
@@ -26,17 +36,11 @@
 
 - name: Lombok
 
-- name: Azure
-
-- name: Kubernetes
-
 - name: OpenAPI
 
 - name: APIM
 
 - name: APIOps
-
-- name: CI/CD
 
 - name: CoreMedia
 
