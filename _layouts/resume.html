@@ -5,7 +5,19 @@ layout: base
 {{ content }}
 
 <section class="resume-section">
-    <h2 class="resume-section-title">Education</h2>
+    <h2 class="resume-section-title">Skills</h2>
+    <div class="resume-skill-section">
+        {% for item in site.data.skills %}
+            <span class="resume-item-tag" onclick='toggleItemDescription("resume-skill-item-description", "{{ forloop.index }}")'>{{ item.name }}</span>
+        {% endfor %}
+    </div>
+    {% for item in site.data.skills %}
+        <p id="resume-skill-item-description-{{ forloop.index }}" class="resume-skill-item-description hidden">{{ item.description }}</p>
+    {% endfor %}
+</section>
+
+<section class="resume-section">
+    <h2 class="resume-section-title-right">Education</h2>
     {% for item in site.data.education %}
         {% include resume-item.html 
             title=item.degree 
@@ -18,7 +30,7 @@ layout: base
 </section>
 
 <section class="resume-section">
-    <h2 class="resume-section-title-right">Experience</h2>
+    <h2 class="resume-section-title">Experience</h2>
     {% for item in site.data.experience %}
         {% include resume-item.html 
             title=item.role 
@@ -27,17 +39,5 @@ layout: base
             tags=item.tags
             description=item.description
         %}
-    {% endfor %}
-</section>
-
-<section class="resume-section">
-    <h2 class="resume-section-title">Skills</h2>
-    <div class="resume-skill-section">
-        {% for item in site.data.skills %}
-            <span class="resume-item-tag" onclick='toggleItemDescription("resume-skill-item-description", "{{ forloop.index }}")'>{{ item.name }}</span>
-        {% endfor %}
-    </div>
-    {% for item in site.data.skills %}
-        <p id="resume-skill-item-description-{{ forloop.index }}" class="resume-skill-item-description hidden">{{ item.description }}</p>
     {% endfor %}
 </section>

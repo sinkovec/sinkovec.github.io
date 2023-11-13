@@ -55,7 +55,11 @@ main {
 .resume-section-title::after {
     content: '';
     display: block;
-    border-bottom: 0.01em solid $brand-color-light;
+    border-bottom: 0.01em solid #336699;
+}
+
+.resume-section {
+    margin: 5% 0;
 }
 
 .resume-section-title-right {
@@ -114,7 +118,7 @@ main {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center;
-    padding: 0 10%;
+    // padding: 0 5%;
 }
 
 .resume-skill-item-description {

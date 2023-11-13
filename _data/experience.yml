@@ -2,6 +2,79 @@
   company: Arvato Systems Digital GmbH
   year: 2023 - present
   tags:
+    - Kubernetes
+    - Docker
+    - Helm
+    - Secret Management
+    - Azure
+    - APIM
+    - OpenAPI
+    - APIOps
+    - Azure Storage
     - CI/CD
+    - Azure DevOps
+    - Jenkins
+    - Prometheus
+    - Grafana
     - CoreMedia 10
+    - CMS
+    - Java 11
+    - Spring Boot
+    - Spring MVC
+    - REST
+    - Maven
+    - JUnit 4
+    - Mockito
+    - MongoDB
+    - Postgres
+    - Vulnerability Management
+    - GitOps
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit auctor, tristique magna id, suscipit felis. Praesent placerat quam vitae leo blandit, ut accumsan magna malesuada. Aenean id ornare diam. Sed mollis et metus in lobortis. Mauris rutrum orci id nulla pharetra, non sagittis est lacinia. In condimentum risus nisl, ac dapibus quam tincidunt ac. Mauris egestas lorem at est pellentesque malesuada. Pellentesque eget porta lorem.
+
+- role: Working Student
+  company: Arvato Systems Digital GmbH
+  year: 2022 - 2023
+  tags:
+    - CoreMedia 10
+    - Kubernetes
+    - Secret Management
+    - Azure Keyvault
+    - Azure Blob Storage
+    - Azure SDK
+    - Java 11
+    - Spring Boot
+    - Spring MVC
+    - Spring Async
+  description: TODO
+
+- role: Working Student
+  company: itestra GmbH
+  year: 2021 - 2022
+  tags:
+    - Java
+    - Spring Boot
+    - Angular
+    - JUnit
+    - Git
+    - Maven
+    - COBOL
+  description: TODO
+
+- role: Tutor at Computer Science Preliminary Course
+  company: Research Group Software Construction, RWTH Aachen University
+  year: Oct. 2020
+  tags:
+    - Java
+    - Programming Basics
+  description: TODO
+
+- role: Working Student
+  company: Chair of Software Engineering, RWTH Aachen University
+  year: 2019 - 2021
+  tags:
+    - MontiCore
+    - Semantic Differencing
+    - UML
+    - Activity Diagrams
+    - Automata Theory
+  description: TODO

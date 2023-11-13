@@ -5,3 +5,83 @@
   description: Morbi quis nunc fringilla, faucibus ex at, varius massa. Quisque nec dignissim sapien. Quisque convallis leo in justo hendrerit maximus. Nulla quis faucibus ligula. Integer condimentum et sem eget fringilla. Aenean sed mollis metus, quis facilisis tellus. Suspendisse vitae pretium nunc.
 
 - name: DevOps
+
+- name: Java
+
+- name: Python
+
+- name: JavaScript
+
+- name: SQL
+
+- name: C/C++
+
+- name: Spring Boot
+
+- name: Spring MVC
+
+- name: JUnit
+
+- name: Mockito
+
+- name: Lombok
+
+- name: Azure
+
+- name: Kubernetes
+
+- name: OpenAPI
+
+- name: APIM
+
+- name: APIOps
+
+- name: CI/CD
+
+- name: CoreMedia
+
+- name: Secret Management
+
+- name: Docker
+
+- name: GitOps
+
+- name: REST
+
+- name: Monitoring
+
+- name: Prometheus
+
+- name: Grafana
+
+- name: Vulnerability Management
+
+- name: Dependency Track
+
+- name: MongoDB
+
+- name: Postgres
+
+- name: Git
+
+- name: Azure DevOps
+
+- name: GitHub
+
+- name: Jekyll
+
+- name: Intellij
+
+- name: Visual Studio Code
+
+- name: Linux
+
+- name: Clean Code
+
+- name: Docs-as-code
+
+- name: IaC
+
+- name: Jira
+
+- name: Confluence

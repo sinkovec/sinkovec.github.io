@@ -2,15 +2,51 @@
   university: RWTH Aachen University
   year: 2019 - 2023
   tags:
+    - Cryptography and Network Security
     - IT Security
-    - Software Engineering
+    - Security Lab
+    - Object-oriented Software Construction
+    - Software Project Management
+    - Advanced Internet Technology
+    - Functional Programming
+    - Automata Theory & Formal Languages
+    - Computability & Complexity Theory
+    - Mathematical Logic
     - Compiler Construction
+    - Operations Research
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit auctor, tristique magna id, suscipit felis. Praesent placerat quam vitae leo blandit, ut accumsan magna malesuada. Aenean id ornare diam. Sed mollis et metus in lobortis. Mauris rutrum orci id nulla pharetra, non sagittis est lacinia. In condimentum risus nisl, ac dapibus quam tincidunt ac. Mauris egestas lorem at est pellentesque malesuada. Pellentesque eget porta lorem.
 
 - degree: Scientific Programming, B.Sc.
   university: FH Aachen - Univserity of Applied Sciences
   year: 2016 - 2019
   tags:
-    - Math
-    - Programming
+    - Analysis
+    - Linear Algebra
+    - Numerical Analysis
+    - Programming (Java)
+    - C++
+    - Algorithms & Data Structures
+    - Databases
+    - Software Engineering
+    - Component-based Software Development
+    - Android
+    - Data Science
+    - Data Analysis
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit auctor, tristique magna id, suscipit felis. Praesent placerat quam vitae leo blandit, ut accumsan magna malesuada. Aenean id ornare diam. Sed mollis et metus in lobortis. Mauris rutrum orci id nulla pharetra, non sagittis est lacinia. In condimentum risus nisl, ac dapibus quam tincidunt ac. Mauris egestas lorem at est pellentesque malesuada. Pellentesque eget porta lorem.
+
+- degree: Mathematical-technical Software Developer (MATSE)
+  university: Chair of Software Engineering, RWTH Aachen University
+  year: 2016 - 2019
+  tags:
+    - MontiCore
+    - Model-driven Development
+    - Java
+    - Code Generation
+    - Freemarker
+    - GitLab
+    - Microservices
+    - Xtext
+    - Docker
+    - DSLs
+    - UML
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit auctor, tristique magna id, suscipit felis. Praesent placerat quam vitae leo blandit, ut accumsan magna malesuada. Aenean id ornare diam. Sed mollis et metus in lobortis. Mauris rutrum orci id nulla pharetra, non sagittis est lacinia. In condimentum risus nisl, ac dapibus quam tincidunt ac. Mauris egestas lorem at est pellentesque malesuada. Pellentesque eget porta lorem.
