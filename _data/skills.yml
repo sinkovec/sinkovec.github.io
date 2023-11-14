@@ -1,9 +1,7 @@
 - name: IT-Security
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit auctor, tristique magna id, suscipit felis. Praesent placerat quam vitae leo blandit, ut accumsan magna malesuada. Aenean id ornare diam. Sed mollis et metus in lobortis. Mauris rutrum orci id nulla pharetra, non sagittis est lacinia. In condimentum risus nisl, ac dapibus quam tincidunt ac. Mauris egestas lorem at est pellentesque malesuada. Pellentesque eget porta lorem.
-
+  
 - name: Software Engineering
-  description: Morbi quis nunc fringilla, faucibus ex at, varius massa. Quisque nec dignissim sapien. Quisque convallis leo in justo hendrerit maximus. Nulla quis faucibus ligula. Integer condimentum et sem eget fringilla. Aenean sed mollis metus, quis facilisis tellus. Suspendisse vitae pretium nunc.
-
+  
 - name: DevOps
 
 - name: Azure
@@ -74,7 +72,7 @@
 
 - name: Jekyll
 
-- name: Intellij
+- name: IntelliJ
 
 - name: Visual Studio Code
 

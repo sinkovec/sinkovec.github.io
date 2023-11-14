@@ -8,7 +8,7 @@ layout: base
     <h2 class="resume-section-title">Skills</h2>
     <div class="resume-skill-section">
         {% for item in site.data.skills %}
-            <span class="resume-item-tag" onclick='toggleItemDescription("resume-skill-item-description", "{{ forloop.index }}")'>{{ item.name }}</span>
+            <span id="resume-skill-item-tag-{{ forloop.index }}" class="resume-item-tag resume-skill-item-tag" onclick='toggleItemDescription("resume-skill-item", "{{ forloop.index }}")'>{{ item.name }}</span>
         {% endfor %}
     </div>
     {% for item in site.data.skills %}
@@ -17,12 +17,12 @@ layout: base
 </section>
 
 <section class="resume-section">
-    <h2 class="resume-section-title-right">Education</h2>
-    {% for item in site.data.education %}
+    <h2 class="resume-section-title-right">Experience</h2>
+    {% for item in site.data.experience %}
         {% include resume-item.html 
-            title=item.degree 
+            title=item.role 
             year=item.year
-            subtitle=item.university
+            subtitle=item.company
             tags=item.tags
             description=item.description
         %}
@@ -30,12 +30,12 @@ layout: base
 </section>
 
 <section class="resume-section">
-    <h2 class="resume-section-title">Experience</h2>
-    {% for item in site.data.experience %}
+    <h2 class="resume-section-title">Education</h2>
+    {% for item in site.data.education %}
         {% include resume-item.html 
-            title=item.role 
+            title=item.degree 
             year=item.year
-            subtitle=item.company
+            subtitle=item.university
             tags=item.tags
             description=item.description
         %}

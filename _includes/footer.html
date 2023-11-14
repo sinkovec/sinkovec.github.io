@@ -21,11 +21,18 @@
     });
 
     function toggleItemDescription(prefix, index) {
-        document.querySelectorAll('.' + prefix).forEach((element) => {
-            if (element.id === prefix + "-" + index) {
+        document.querySelectorAll('.' + prefix + '-description').forEach((element) => {
+            if (element.id === prefix + "-description-" + index) {
                 element.classList.toggle("hidden");
             } else {
                 element.classList.add("hidden")
+            }
+        });
+        document.querySelectorAll('.' + prefix + '-tag').forEach((element) => {
+            if (element.id === prefix + "-tag-" + index) {
+                element.classList.toggle("skill-tag-selected");
+            } else {
+                element.classList.remove("skill-tag-selected")
             }
         });
     }
