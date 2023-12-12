@@ -1,11 +1,75 @@
-# [sinkovec.github.io](https://sinkovec.github.io)
+# Nuxt 3 Minimal Starter
 
-This repository contains the source code for my personal portfolio website.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-Built with [Jekyll](https://jekyllrb.com/)
+## Setup
 
-## License
+Make sure to install the dependencies:
 
-Source code is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
+```bash
+# npm
+npm install
 
-Contents of this site are © Copyright 2020 Brian Sinkovec. All rights reserved.
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
