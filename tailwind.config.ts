@@ -9,6 +9,12 @@ export default <Partial<Config>>{
           raw: 'print',
         },
       },
+      width: {
+        a4: '210mm',
+      },
+      height: {
+        a4: '297mm',
+      },
       colors: {
         primary: '#181818',
         secondary: '#a6a6a6',

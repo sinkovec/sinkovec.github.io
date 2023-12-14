@@ -1,3 +1,5 @@
+import ViteYaml from '@modyfi/vite-plugin-yaml'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
@@ -12,5 +14,8 @@ export default defineNuxtConfig({
       '@fortawesome/free-solid-svg-icons',
       '@fortawesome/free-brands-svg-icons',
     ],
+  },
+  vite: {
+    plugins: [ViteYaml()],
   },
 })

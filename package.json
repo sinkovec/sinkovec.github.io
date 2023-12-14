@@ -11,6 +11,7 @@
     "lint": "eslint --ext .ts,.js,.vue ."
   },
   "devDependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.0.4",
     "@nuxt/devtools": "latest",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
@@ -19,6 +20,7 @@
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "js-yaml": "^4.1.0",
     "nuxt": "^3.8.2",
     "prettier": "^3.1.0",
     "typescript": "^5.3.3",

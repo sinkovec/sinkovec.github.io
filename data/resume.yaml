@@ -1,99 +1,106 @@
 basics:
-  name: John Doe
-  label: Programmer
-  image: ""
-  email: john@gmail.com
-  phone: (912) 555-4321
-  url: https://johndoe.com
-  summary: A summary of John Doe…
+  name: Sinkovec
+  firstName: Brian
+  label: Software Engineer
+  image: ''
+  email: bsin1807@gmail.com
+  phone: ''
+  url: https://briansinkovec.dev
+  summary: A summary of brian…
   location:
-    address: 2712 Broadway St
-    postalCode: CA 94115
-    city: San Francisco
-    countryCode: US
-    region: California
+    address: ''
+    postalCode: ''
+    city: Aachen
+    countryCode: DE
+    region: Germany
   profiles:
-    - network: Twitter
-      username: john
-      url: https://twitter.com/john
+    - network: GitHub
+      username: sinkovec
+      url: https://www.github.com/sinkovec
+    - network: LinkedIn
+      username: Brian Sinkovec
+      url: https://linkedin.com/in/brian-sinkovec-9541b8242
+    - network: Xing
+      username: Brian_Sinkovec
+      url: https://xing.com/profile/Brian_Sinkovec
 
 work:
-  - name: Company
-    position: President
-    url: https://company.com
-    startDate: 2013-01-01
-    endDate: 2014-01-01
+  - name: Arvato Systems GmbH
+    position: Software Engineer
+    url: https://arvato-systems.com
+    startDate: 2023-02-01
     summary: Description…
     highlights:
       - Started the company
 
-volunteer:
-  - organization: Organization
-    position: Volunteer
-    url: https://organization.com/
-    startDate: 2012-01-01
-    endDate: 2013-01-01
-    summary: Description…
-    highlights:
-      - Awarded 'Volunteer of the Month'
-
 education:
-  - institution: University
-    url: https://institution.com/
-    area: Software Development
+  - institution: RWTH Aachen University
+    url: https://rwth-aachen.de/
+    area: Computer Science
+    studyType: Master
+    startDate: 2019-10-01
+    endDate: 2023-01-31
+    score: 1,1
+    courses:
+      - DB1101 - Basic SQL
+  - institution: FH Aachen - University of Applied Sciences
+    url: https://fh-aachen.de/
+    area: Scientific Programming
     studyType: Bachelor
-    startDate: 2011-01-01
-    endDate: 2013-01-01
-    score: 4.0
+    startDate: 2016-09-01
+    endDate: 2019-08-31
+    score: 1,5
     courses:
       - DB1101 - Basic SQL
 
-awards:
-  - title: Award
-    date: 2014-11-01
-    awarder: Company
-    summary: There is no spoon.
-
-certificates:
-  - name: Certificate
-    date: 2021-11-07
-    issuer: Company
-    url: https://certificate.com
-
-publications:
-  - name: Publication
-    publisher: Company
-    releaseDate: 2014-10-01
-    url: https://publication.com
-    summary: Description…
+tech:
+  - name: Java
+  - name: Python
+  - name: TypeScript
+  - name: SQL
+  - name: Spring Boot
+  - name: Spring MVC
+  - name: JUnit
+  - name: Maven
+  - name: Kubernetes
+  - name: Docker
+  - name: Helm
+  - name: Prometheus
+  - name: Grafana
+  - name: Azure
+  - name: APIM
+  - name: Azure DevOps
+  - name: Azure Keyvault
+  - name: GitHub
+  - name: Jenkins
+  - name: Linux
+  - name: Bash
+  - name: Git
+  - name: OpenAPI
+  - name: MongoDB
+  - name: Vue
+  - name: Nuxt
+  - name: Tailwind
 
 skills:
-  - name: Web Development
-    level: Master
-    keywords:
-      - HTML
-      - CSS
-      - JavaScript
+  - name: DevSecOps
+  - name: Cloud-native
+  - name: Automation
+  - name: CI/CD
+  - name: IaC
+  - name: Clean Code
+  - name: Software Architecture
+  - name: arc42
+  - name: Scrum
 
 languages:
-  - language: English
+  - language: German
     fluency: Native speaker
+  - language: English
+    fluency: Fluent
 
 interests:
   - name: Wildlife
     keywords:
       - Ferrets
       - Unicorns
-
-references:
-  - name: Jane Doe
-    reference: Reference…
-
-projects:
-  - name: Project
-    startDate: 2019-01-01
-    endDate: 2021-01-01
-    description: Description...
-    highlights:
-      - Won award at AIHacks 2016
-    url: https://project.com/
