@@ -5,15 +5,22 @@
         class="grid grid-cols-[40%_60%] w-a4 h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden"
       >
         <div class="flex justify-center bg-primary">
-          <img src="@/assets/img/bio-photo.png" class="block p-12" />
+          <img
+            src="@/assets/img/bio-photo.png"
+            class="self-center block w-48 h-48"
+          />
         </div>
-        <div class="flex flex-col p-8 bg-slate-100 text-primary text-8xl">
-          <span>{{ firstName }}</span>
-          <span class="font-thin">{{ lastName }}</span>
-          <span class="text-3xl">{{ label }}</span>
+        <div
+          class="flex flex-col p-8 bg-slate-100 text-primary text-8xl lowercase space-y-4"
+        >
+          <div class="flex flex-col -space-y-4">
+            <span>{{ firstName }}</span>
+            <span class="font-thin">{{ lastName }}</span>
+          </div>
+          <span class="text-3xl font-thin">{{ label }}</span>
         </div>
         <div class="flex flex-col bg-primary text-slate-100">
-          <section class="flex flex-col pb-4">
+          <section class="flex flex-col">
             <span
               class="uppercase bg-slate-100 text-primary text-center text-xl font-bold mx-4 rounded-xl"
               >Contact</span
@@ -27,7 +34,7 @@
               </div>
             </div>
           </section>
-          <section class="flex flex-col pb-4">
+          <section class="flex flex-col">
             <span
               class="uppercase bg-slate-100 text-primary text-center text-xl font-bold mx-4 rounded-xl"
             >
@@ -41,7 +48,7 @@
               </div>
             </div>
           </section>
-          <section class="flex flex-col pb-4">
+          <section class="flex flex-col">
             <span
               class="uppercase bg-slate-100 text-primary text-center text-xl font-bold mx-4 rounded-xl"
             >
@@ -56,17 +63,96 @@
             </div>
           </section>
         </div>
-        <div class="flex flex-col flex-1 text-primary bg-slate-100">
-          <section
-            v-for="(section, index) in rightColumn"
-            :key="index"
-            class="flex flex-col pb-4"
-          >
+        <div class="flex flex-col flex-1 text-sm text-primary bg-slate-100">
+          <section class="flex flex-col">
             <span
               class="uppercase bg-primary text-slate-100 font-bold text-xl mx-4 px-4 rounded-xl"
-              >{{ section.title }}</span
             >
-            <span class="text-center">{{ section.text }}</span>
+              Work experience
+            </span>
+            <div class="flex flex-col px-4 py-2 space-y-1">
+              <div
+                v-for="(item, index) in work"
+                :key="index"
+                class="flex flex-col"
+              >
+                <div class="flex justify-between">
+                  <span class="font-bold">{{ item.position }}</span>
+                  <div class="flex space-x-1 italic text-gray-400">
+                    <span>{{ formatDate(item.startDate) }}</span>
+                    <span>-</span>
+                    <span v-if="item.endDate">{{
+                      formatDate(item.endDate)
+                    }}</span>
+                    <span v-else>Present</span>
+                  </div>
+                </div>
+                <NuxtLink :to="item.url">
+                  <span class="italic">{{ item.name }}</span>
+                </NuxtLink>
+                <span class="text-xs">{{ item.summary }}</span>
+                <div class="flex flex-col text-xs px-2 pb-1">
+                  <span
+                    v-for="(highlight, hightlightIndex) in item.highlights"
+                    :key="hightlightIndex"
+                  >
+                    <FontAwesomeIcon icon="circle-check" />
+                    {{ highlight }}
+                  </span>
+                </div>
+                <div class="flex flex-wrap gap-0.5 text-[0.5rem]">
+                  <span
+                    v-for="(tag, tagIndex) in item.tags"
+                    :key="tagIndex"
+                    class="bg-[#2a2a2a] px-1.5 rounded-xl text-slate-100"
+                  >
+                    {{ tag }}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="flex flex-col pb-4">
+            <span
+              class="uppercase bg-primary text-slate-100 font-bold text-xl mx-4 px-4 rounded-xl"
+            >
+              Education
+            </span>
+            <div class="flex flex-col px-4 py-2 space-y-1">
+              <div
+                v-for="(item, index) in education"
+                :key="index"
+                class="flex flex-col"
+              >
+                <div class="flex justify-between">
+                  <span class="font-bold">
+                    {{ item.area }}, {{ item.degree }}
+                  </span>
+                  <div class="flex space-x-1 italic text-gray-400">
+                    <span>{{ formatDate(item.startDate) }}</span>
+                    <span>-</span>
+                    <span v-if="item.endDate">{{
+                      formatDate(item.endDate)
+                    }}</span>
+                    <span v-else>today</span>
+                  </div>
+                </div>
+                <NuxtLink :to="item.url">
+                  <span class="italic">{{ item.institution }}</span>
+                </NuxtLink>
+                <span class="text-xs">Grade: {{ item.score }}</span>
+                <span class="text-xs">Thesis: {{ item.thesis }}</span>
+                <div class="flex flex-wrap gap-0.5 text-[0.5rem]">
+                  <span
+                    v-for="(course, courseIndex) in item.courses"
+                    :key="courseIndex"
+                    class="bg-[#2a2a2a] px-1.5 rounded-xl text-slate-100"
+                  >
+                    {{ course }}
+                  </span>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>
@@ -76,6 +162,7 @@
 
 <script lang="ts" setup>
 import type { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import moment from 'moment'
 import data from '../data/resume.yaml'
 
 definePageMeta({
@@ -100,10 +187,15 @@ const contact = [
 ]
 
 data.basics.profiles.forEach(
-  (profile: { username: string; network: string; url: string }) => {
+  (profile: {
+    username: string
+    network: string
+    url: string
+    faIcon: string[]
+  }) => {
     contact.push({
       text: profile.username,
-      icon: ['fab', profile.network.toLowerCase()],
+      icon: profile.faIcon,
       link: profile.url,
     })
   },
@@ -113,14 +205,18 @@ const techStack = data.tech
 
 const skills = data.skills
 
+const work = data.work
+
+const education = data.education
+
 const rightColumn = [
-  {
-    title: 'Work Experience',
-    text: 'Lorem ipsum',
-  },
   {
     title: 'Education',
     text: 'Lorem ipsum',
   },
 ]
+
+function formatDate(value: string) {
+  return moment(value).format('MMM yyyy')
+}
 </script>

@@ -14,13 +14,20 @@ basics:
     countryCode: DE
     region: Germany
   profiles:
+    - network: Website
+      faIcon: ['fas', 'globe']
+      username: briansinkovec.dev
+      url: https://briansinkovec.dev
     - network: GitHub
+      faIcon: ['fab', 'github']
       username: sinkovec
       url: https://www.github.com/sinkovec
     - network: LinkedIn
+      faIcon: ['fab', 'linkedin']
       username: Brian Sinkovec
       url: https://linkedin.com/in/brian-sinkovec-9541b8242
     - network: Xing
+      faIcon: ['fab', 'xing']
       username: Brian_Sinkovec
       url: https://xing.com/profile/Brian_Sinkovec
 
@@ -29,29 +36,107 @@ work:
     position: Software Engineer
     url: https://arvato-systems.com
     startDate: 2023-02-01
-    summary: Description…
+    summary: Build and maintain features to improve customer and developer experience for a cloud-hosted CMS platform.
     highlights:
-      - Started the company
+      - Lead automated APIM deployments with APIOps
+      - Designed backend services for a ShareHub platform
+      - Continuous improvement of CI/CD pipelines
+      - Advance security tooling & awareness in our teams
+    tags:
+      - Java
+      - Spring Boot
+      - Azure
+      - Docker
+      - Kubernetes
+      - Helm
+      - CoreMedia
+      - OWASP
+      - SAST
+      - SCA
+  - name: Arvato Systems GmbH
+    position: Working Student
+    url: https://arvato-systems.com
+    startDate: 2022-03-01
+    endDate: 2023-01-31
+    highlights:
+      - Implemented secret management with CSI driver & keyvault
+      - Developed REST APIs for technical sales app
+    tags:
+      - Java
+      - Spring Boot
+      - JUnit
+      - OpenAPI
+      - Docker
+      - Kubernetes
+      - Azure
+  - name: itestra GmbH
+    position: Working Student
+    url: https://itestra.de
+    startDate: 2021-05-01
+    endDate: 2022-01-31
+    highlights:
+      - Developed a feature to display relationships between persons in an insurance web application
+      - Created automated integration tests with JUnit
+    tags:
+      - Java
+      - Spring Boot
+      - Angular
+      - COBOL
+      - JUnit
+  - name: Chair of Software Engineering, RWTH Aachen
+    position: Working Student
+    url: https://se-rwth.de
+    startDate: 2021-05-01
+    endDate: 2022-01-31
+    highlights:
+      - Implemented algorithms for semantic differencing between models
+      - Documented and migrated tools developed at the chair
+    tags:
+      - Java
+      - Gitlab
+      - Docker
+      - MontiCore
+      - MDD
+      - DLSs
+      - UML
 
 education:
   - institution: RWTH Aachen University
     url: https://rwth-aachen.de/
     area: Computer Science
-    studyType: Master
+    degree: M.Sc.
     startDate: 2019-10-01
     endDate: 2023-01-31
     score: 1,1
+    thesis: Towards a software engineering view of security for microservice-based applications
     courses:
-      - DB1101 - Basic SQL
+      - IT-Security
+      - Network security
+      - Security lab
+      - Object-oriented software construction
+      - Software project management
+      - Functional programming
+      - Compiler construction
+      - Complexity theory
   - institution: FH Aachen - University of Applied Sciences
     url: https://fh-aachen.de/
     area: Scientific Programming
-    studyType: Bachelor
+    degree: B.Sc.
     startDate: 2016-09-01
     endDate: 2019-08-31
     score: 1,5
+    thesis: Generating time-synchronous, distributed component & connector architectures
     courses:
-      - DB1101 - Basic SQL
+      - Analysis
+      - Linear Algebra
+      - Programming
+      - Algorithms & Data structures
+      - Databases
+      - Software Engineering
+      - Data Anaylsis
+      - C++
+      - Android
+      - Component-based software development
 
 tech:
   - name: Java
@@ -89,18 +174,16 @@ skills:
   - name: CI/CD
   - name: IaC
   - name: Clean Code
-  - name: Software Architecture
+  # - name: Software Design
   - name: arc42
+  - name: Software Architecture
   - name: Scrum
+  - name: Kanban
+  - name: English
+  - name: German
 
 languages:
   - language: German
     fluency: Native speaker
   - language: English
     fluency: Fluent
-
-interests:
-  - name: Wildlife
-    keywords:
-      - Ferrets
-      - Unicorns
