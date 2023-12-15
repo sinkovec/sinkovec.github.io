@@ -33,15 +33,21 @@ basics:
 
 work:
   - name: Arvato Systems GmbH
-    position: Software Engineer
     url: https://arvato-systems.com
-    startDate: 2023-02-01
-    summary: Build and maintain features to improve customer and developer experience for a cloud-hosted CMS platform.
+    positions:
+      - name: Software Engineer
+        startDate: 2023-02-01
+      - name: Working Student
+        startDate: 2022-03-01
+        endDate: 2023-01-31
+    summary: Built and maintained features to improve customer and developer experience for a cloud-hosted CMS platform.
     highlights:
-      - Lead automated APIM deployments with APIOps
+      - Led automated APIM deployments with APIOps
       - Designed backend services for a ShareHub platform
       - Continuous improvement of CI/CD pipelines
-      - Advance security tooling & awareness in our teams
+      - Advanced security tooling & awareness in our teams
+      - Implemented secret management with CSI driver & keyvault
+      - Developed REST APIs for technical sales app
     tags:
       - Java
       - Spring Boot
@@ -53,30 +59,15 @@ work:
       - OWASP
       - SAST
       - SCA
-  - name: Arvato Systems GmbH
-    position: Working Student
-    url: https://arvato-systems.com
-    startDate: 2022-03-01
-    endDate: 2023-01-31
-    highlights:
-      - Implemented secret management with CSI driver & keyvault
-      - Developed REST APIs for technical sales app
-    tags:
-      - Java
-      - Spring Boot
-      - JUnit
-      - OpenAPI
-      - Docker
-      - Kubernetes
-      - Azure
   - name: itestra GmbH
-    position: Working Student
+    positions:
+      - name: Working Student
+        startDate: 2021-05-01
+        endDate: 2022-01-31
     url: https://itestra.de
-    startDate: 2021-05-01
-    endDate: 2022-01-31
     highlights:
-      - Developed a feature to display relationships between persons in an insurance web application
-      - Created automated integration tests with JUnit
+      - Developed backend/UI to display people relations in an insurance web app
+      - Created automated unit and integration tests with JUnit
     tags:
       - Java
       - Spring Boot
@@ -84,13 +75,18 @@ work:
       - COBOL
       - JUnit
   - name: Chair of Software Engineering, RWTH Aachen
-    position: Working Student
     url: https://se-rwth.de
-    startDate: 2021-05-01
-    endDate: 2022-01-31
+    positions:
+      - name: Working Student
+        startDate: 2019-12-01
+        endDate: 2021-04-30
+      - name: Apprenticeship MATSE
+        startDate: 2016-09-01
+        endDate: 2019-08-31
     highlights:
-      - Implemented algorithms for semantic differencing between models
-      - Documented and migrated tools developed at the chair
+      - Implemented semantic differencing algorithms in Java
+      - Development of DSLs and services to manage TV license restrictions
+      - Development of the MontiCore language workbench and DSLs with MDD
     tags:
       - Java
       - Gitlab
@@ -107,7 +103,7 @@ education:
     degree: M.Sc.
     startDate: 2019-10-01
     endDate: 2023-01-31
-    score: 1,1
+    score: 1,1 (with honors)
     thesis: Towards a software engineering view of security for microservice-based applications
     courses:
       - IT-Security
@@ -126,6 +122,7 @@ education:
     endDate: 2019-08-31
     score: 1,5
     thesis: Generating time-synchronous, distributed component & connector architectures
+    description: Dual study program (MATSE)
     courses:
       - Analysis
       - Linear Algebra
@@ -143,6 +140,7 @@ tech:
   - name: Python
   - name: TypeScript
   - name: SQL
+  - name: Web
   - name: Spring Boot
   - name: Spring MVC
   - name: JUnit
