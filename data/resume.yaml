@@ -1,6 +1,5 @@
 basics:
-  name: Sinkovec
-  firstName: Brian
+  name: Brian Sinkovec
   label: Software Engineer
   image: ''
   email: bsin1807@gmail.com
@@ -32,7 +31,7 @@ basics:
       url: https://xing.com/profile/Brian_Sinkovec
 
 work:
-  - name: Arvato Systems GmbH
+  - company: Arvato Systems GmbH
     url: https://arvato-systems.com
     positions:
       - name: Software Engineer
@@ -59,7 +58,7 @@ work:
       - OWASP
       - SAST
       - SCA
-  - name: itestra GmbH
+  - company: itestra GmbH
     positions:
       - name: Working Student
         startDate: 2021-05-01
@@ -74,7 +73,7 @@ work:
       - Angular
       - COBOL
       - JUnit
-  - name: Chair of Software Engineering, RWTH Aachen
+  - company: Chair of Software Engineering, RWTH Aachen
     url: https://se-rwth.de
     positions:
       - name: Working Student
@@ -136,49 +135,49 @@ education:
       - Component-based software development
 
 tech:
-  - name: Java
-  - name: Python
-  - name: TypeScript
-  - name: SQL
-  - name: Web
-  - name: Spring Boot
-  - name: Spring MVC
-  - name: JUnit
-  - name: Maven
-  - name: Kubernetes
-  - name: Docker
-  - name: Helm
-  - name: Prometheus
-  - name: Grafana
-  - name: Azure
-  - name: APIM
-  - name: Azure DevOps
-  - name: Azure Keyvault
-  - name: GitHub
-  - name: Jenkins
-  - name: Linux
-  - name: Bash
-  - name: Git
-  - name: OpenAPI
-  - name: MongoDB
-  - name: Vue
-  - name: Nuxt
-  - name: Tailwind
+  - Java
+  - Python
+  - TypeScript
+  - SQL
+  - Web
+  - Spring Boot
+  - Spring MVC
+  - JUnit
+  - Maven
+  - Kubernetes
+  - Docker
+  - Helm
+  - Prometheus
+  - Grafana
+  - Azure
+  - APIM
+  - Azure DevOps
+  - Azure Keyvault
+  - GitHub
+  - Jenkins
+  - Linux
+  - Bash
+  - Git
+  - OpenAPI
+  - MongoDB
+  - Vue
+  - Nuxt
+  - Tailwind
 
 skills:
-  - name: DevSecOps
-  - name: Cloud-native
-  - name: Automation
-  - name: CI/CD
-  - name: IaC
-  - name: Clean Code
-  # - name: Software Design
-  - name: arc42
-  - name: Software Architecture
-  - name: Scrum
-  - name: Kanban
-  - name: English
-  - name: German
+  - DevSecOps
+  - Cloud-native
+  - Automation
+  - CI/CD
+  - IaC
+  - Clean Code
+  # - Software Design
+  - arc42
+  - Software Architecture
+  - Scrum
+  - Kanban
+  - English
+  - German
 
 languages:
   - language: German

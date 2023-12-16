@@ -1,0 +1,95 @@
+<template>
+  <div class="bg-primary bg-opacity-90 min-h-screen">
+    <div class="flex justify-center py-16 print:p-0">
+      <div
+        class="grid grid-cols-[40%_60%] w-a4 h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden"
+      >
+        <BioPhoto class="bg-primary" />
+        <ResumeHeader
+          :name="data.basics.name"
+          :label="data.basics.label"
+          class="bg-slate-100 text-primary"
+        />
+        <div class="flex flex-col bg-primary text-slate-100">
+          <ContactSection :contact="contact" />
+          <TagSection title="Tech Stack" :items="data.tech" />
+          <TagSection title="Soft Skills" :items="data.skills" />
+        </div>
+        <div class="flex flex-col bg-slate-100 text-primary">
+          <ExperienceSection title="Work Experience" :items="work" />
+          <ExperienceSection title="Education" :items="education" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import data from '../data/resume.yaml'
+
+const contact = computed(() => {
+  const result = [
+    {
+      text: `${data.basics.location.city}, ${data.basics.location.region}`,
+      icon: ['fas', 'location-dot'],
+    },
+    {
+      text: data.basics.email,
+      icon: ['fas', 'envelope'],
+      link: 'mailto:' + data.basics.email,
+    },
+  ]
+
+  data.basics.profiles.forEach(
+    (profile: { username: string; faIcon: string[]; url: string }) => {
+      result.push({
+        text: profile.username,
+        icon: profile.faIcon,
+        link: profile.url,
+      })
+    },
+  )
+
+  return result
+})
+
+const work = computed(() =>
+  data.work.map((item: any) => {
+    return {
+      roles: item.positions,
+      organisation: {
+        name: item.company,
+        url: item.url,
+      },
+      summary: item.summary,
+      highlights: item.highlights,
+    }
+  }),
+)
+
+const education = computed(() =>
+  data.education.map((item: any) => {
+    const highlights = [`Score: ${item.score}`, `Thesis: ${item.thesis}`]
+
+    if (item.description) {
+      highlights.push(item.description)
+    }
+
+    const role = {
+      name: `${item.area}, ${item.degree}`,
+      startDate: item.startDate,
+      endDate: item.endDate,
+    }
+
+    return {
+      roles: [role],
+      organisation: {
+        name: item.institution,
+        url: item.url,
+      },
+      highlights,
+      tags: item.courses,
+    }
+  }),
+)
+</script>
