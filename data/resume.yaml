@@ -24,8 +24,8 @@ basics:
       url: https://www.github.com/sinkovec
     - network: LinkedIn
       faIcon: ['fab', 'linkedin']
-      username: Brian Sinkovec
-      url: https://linkedin.com/in/brian-sinkovec-9541b8242
+      username: brian-sinkovec
+      url: https://linkedin.com/in/brian-sinkovec
     - network: Xing
       faIcon: ['fab', 'xing']
       username: Brian_Sinkovec
