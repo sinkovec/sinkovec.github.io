@@ -1,13 +1,13 @@
 <template>
   <section class="flex flex-col text-center">
-    <SectionTitle title="Contact" class="bg-slate-100 text-primary" />
-    <div class="flex flex-col gap-1 py-2">
-      <div v-for="(item, index) in contact" :key="index">
+    <ResumeSectionTitle title="Contact" class="bg-slate-100 text-primary" />
+    <div class="flex flex-wrap justify-center gap-1 px-8 py-2">
+      <Tag v-for="(item, index) in contact" :key="index" class="px-3 py-0.5">
         <NuxtLink :to="item.link" class="space-x-1">
           <FontAwesomeIcon :icon="item.icon" />
           <span>{{ item.text }}</span>
         </NuxtLink>
-      </div>
+      </Tag>
     </div>
   </section>
 </template>

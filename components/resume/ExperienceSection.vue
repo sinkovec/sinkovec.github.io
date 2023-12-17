@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-col">
-    <SectionTitle :title="title" class="bg-primary text-slate-100 px-4" />
+    <ResumeSectionTitle :title="title" class="bg-primary text-slate-100 px-4" />
     <div class="flex flex-col px-4 pt-2 pb-4 gap-4 text-sm">
       <div v-for="(item, index) in items" :key="index" class="flex flex-col">
         <div v-for="(role, roleIndex) in item.roles" :key="roleIndex">
@@ -33,9 +33,10 @@
           <Tag
             v-for="(tag, tagIndex) in item.tags"
             :key="tagIndex"
-            :name="tag"
             class="bg-opacity-20 px-1.5"
-          />
+          >
+            {{ tag }}
+          </Tag>
         </div>
       </div>
     </div>

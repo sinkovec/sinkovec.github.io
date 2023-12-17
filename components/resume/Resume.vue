@@ -4,20 +4,20 @@
       <div
         class="grid grid-cols-[40%_60%] w-a4 h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden"
       >
-        <BioPhoto class="bg-primary" />
+        <ResumeBioPhoto class="bg-primary" />
         <ResumeHeader
           :name="data.basics.name"
           :label="data.basics.label"
           class="bg-slate-100 text-primary"
         />
         <div class="flex flex-col bg-primary text-slate-100">
-          <ContactSection :contact="contact" />
-          <TagSection title="Tech Stack" :items="data.tech" />
-          <TagSection title="Soft Skills" :items="data.skills" />
+          <ResumeContactSection :contact="contact" />
+          <ResumeTagSection title="Tech Stack" :items="data.tech" />
+          <ResumeTagSection title="Soft Skills" :items="data.skills" />
         </div>
         <div class="flex flex-col bg-slate-100 text-primary">
-          <ExperienceSection title="Work Experience" :items="work" />
-          <ExperienceSection title="Education" :items="education" />
+          <ResumeExperienceSection title="Work Experience" :items="work" />
+          <ResumeExperienceSection title="Education" :items="education" />
         </div>
       </div>
     </div>
