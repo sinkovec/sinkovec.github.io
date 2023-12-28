@@ -2,7 +2,7 @@
   <div class="bg-primary bg-opacity-90 min-h-screen">
     <div class="flex justify-center py-16 print:p-0">
       <div
-        class="grid grid-cols-[40%_60%] w-a4 h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden"
+        class="grid grid-cols-[33%_67%] w-a4 h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden"
       >
         <ResumeBioPhoto class="bg-primary" />
         <ResumeHeader
@@ -10,14 +10,15 @@
           :label="data.basics.label"
           class="bg-slate-100 text-primary"
         />
-        <div class="flex flex-col bg-primary text-slate-100">
+        <div class="flex flex-col gap-4 bg-primary text-slate-100">
           <ResumeContactSection :contact="contact" />
-          <ResumeTagSection title="Tech Stack" :items="data.tech" />
+          <ResumeTagSection title="Programming" :items="data.programming" />
+          <ResumeTagSection title="Technical" :items="data.tech" />
           <ResumeTagSection title="Soft Skills" :items="data.skills" />
         </div>
         <div class="flex flex-col bg-slate-100 text-primary">
-          <ResumeExperienceSection title="Work Experience" :items="work" />
           <ResumeExperienceSection title="Education" :items="education" />
+          <ResumeExperienceSection title="Experience" :items="work" />
         </div>
       </div>
     </div>
@@ -63,6 +64,7 @@ const work = computed(() =>
       },
       summary: item.summary,
       highlights: item.highlights,
+      tags: item.tags,
     }
   }),
 )

@@ -1,5 +1,5 @@
 <template>
-  <span class="uppercase text-xl tracking-wider font-bold mx-4 rounded-xl">
+  <span class="uppercase font-bold tracking-wider mx-4 rounded-xl">
     {{ title }}
   </span>
 </template>

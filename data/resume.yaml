@@ -36,31 +36,35 @@ work:
     positions:
       - name: Software Engineer
         startDate: 2023-02-01
-      - name: Working Student
+      - name: Software Developer | Working Student
         startDate: 2022-03-01
         endDate: 2023-01-31
-    summary: Built and maintained features to improve customer and developer experience for a cloud-hosted CMS platform.
+    summary: Built and maintained features to improve customer and developer experience for a reliable CMS platform hosted on Microsoft Azure.
     highlights:
-      - Led automated APIM deployments with APIOps
-      - Designed backend services for a ShareHub platform
-      - Continuous improvement of CI/CD pipelines
-      - Advanced security tooling & awareness in our teams
-      - Implemented secret management with CSI driver & keyvault
+      - Led development of automated APIM deployments with APIOps
+      - Led design and implementation of backend services for a platform to share technical documents between sales and customers
+      - Drove continuous improvement of CI/CD pipelines, e.g., reducing deployment time by parallelizing pipeline tasks
+      - Advanced security tooling & awareness through discussions and presentations
+      - Removed manual intervention of Kubernetes secrets by implementing management and automatic rotation of Kubernetes secrets with CSI driver & keyvault
       - Developed REST APIs for technical sales app
     tags:
       - Java
       - Spring Boot
+      - OpenAPI
+      - Azure Api Mangement
       - Azure
       - Docker
       - Kubernetes
       - Helm
+      - Azure Keyvault
+      - Azure DevOps
       - CoreMedia
-      - OWASP
+      - OWASP Dependency Check
       - SAST
       - SCA
   - company: itestra GmbH
     positions:
-      - name: Working Student
+      - name: Software Developer | Working Student
         startDate: 2021-05-01
         endDate: 2022-01-31
     url: https://itestra.de
@@ -76,7 +80,7 @@ work:
   - company: Chair of Software Engineering, RWTH Aachen University
     url: https://se-rwth.de
     positions:
-      - name: Working Student
+      - name: Research Assistant
         startDate: 2019-12-01
         endDate: 2021-04-30
       - name: Apprenticeship MATSE
@@ -88,6 +92,7 @@ work:
       - Development of the MontiCore language workbench and DSLs with MDD
     tags:
       - Java
+      - Spring Boot
       - Gitlab
       - Docker
       - MontiCore
@@ -126,6 +131,7 @@ education:
       - Analysis
       - Linear Algebra
       - Programming
+      - Java
       - Algorithms & Data structures
       - Databases
       - Software Engineering
@@ -134,16 +140,17 @@ education:
       - Android
       - Component-based software development
 
-tech:
+programming:
   - Java
   - Python
   - TypeScript
-  - SQL
-  - Web
-  - Spring Boot
-  - Spring MVC
-  - JUnit
-  - Maven
+
+tech:
+  - DevSecOps
+  - CI/CD
+  - IaC
+  - Clean Code
+  - Ethical Hacking
   - Kubernetes
   - Docker
   - Helm
@@ -152,12 +159,17 @@ tech:
   - Azure
   - APIM
   - Azure DevOps
-  - Azure Keyvault
+  - Keyvault
   - GitHub
   - Jenkins
   - Linux
   - Bash
   - Git
+  - Web Dev
+  - Spring Boot
+  - Spring MVC
+  - JUnit
+  - Maven
   - OpenAPI
   - MongoDB
   - Vue
@@ -165,17 +177,13 @@ tech:
   - Tailwind
 
 skills:
-  - DevSecOps
-  - Cloud-native
-  - Automation
-  - CI/CD
-  - IaC
-  - Clean Code
-  # - Software Design
-  - arc42
-  - Software Architecture
   - Scrum
   - Kanban
+  - Supportive
+  - Team-oriented
+  - Reliable
+  - Problem-solving
+  - Resilient
   - English
   - German
 

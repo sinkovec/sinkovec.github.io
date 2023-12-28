@@ -1,0 +1,82 @@
+academic:
+  - name: 'Master thesis: Towards a software engineering view of security for microservice-based applications'
+    highlights:
+      - Tackled the question how the security of software architectures can be modeled from a software engineering perspective and which security design concepts exist to be modeled in such security views
+      - Performed a systematic literature review to collect, select, review, and classify 52 out of 538 scientific publications about secure software design
+      - Developed automation scripts in Python to transfer and label publication metadata from Mendeley/Bibtex into Notion
+      - Extracted and classified 119 security design concepts into a comprehensive catalog with 6 different categories and corresponding properties, e.g., security tactics, design principles, protocols, etc.
+      - Created a meta-model to define security views and concerns for security modeling of software applications
+      - Interviewed and discussed the approach of modeling security views and concerns with research and domain experts
+      - My contribution directly led to a new research project called "SCAM - Security-Centered Architecture Modelling" under which my former mentor researches and supervises new thesis projects at RWTH Aachen University
+    tags:
+      - Systematic literature review
+      - Secure design
+      - Security views
+      - Architecture modeling
+      - Notion
+      - Python
+      - Latex
+
+  - name: Security Lab
+    highlights:
+      - Participation as part of the studies practical curriculum at the research group for IT-Security of RWTH Aachen University
+      - Selected as one of 14 out of over 50 applicants by solving and properly documenting an entry challenge including password cracking, packet analysis, code de-obfuscation, etc.
+      - Solved, documented, and presented bi-weekly hacking exercises in a team
+      - Hardened and attacked team VMs in a dedicated network
+    tags:
+      - Python
+      - Bash
+      - SSH
+      - Network enumeration
+      - nmap
+      - OSINT
+      - Phishing
+      - MitM attacks
+      - Password / hash cracking
+      - Cryptography
+      - Padding oracle attacks
+      - SQLi
+      - XSS
+      - Buffer overflow
+      - Backdoors
+      - WiFi hacking
+      - Cold boot attacks
+
+  - name: Seminar paper
+    highlights:
+      - Enrolled for writing a seminar paper as part of the Security Lab about honey encryption and password managers
+      - Researched and reviewed relevant scientific publications about the theory of honey encryption
+      - Summarized and presented the shortcomings of traditional password vaults and how state-of-the-art honey vault techniques prevent offline verification attacks
+      - Performed peer-reviews among participants
+    tags:
+      - Honey encryption
+      - Password managers
+      - Offline verification attacks
+      - Cryptography
+
+  - name: Tutor at preparatory bridge course in computer science
+    highlights:
+      - Taught programming fundamentals in Java to first year students in a remote fashion
+      - Supervised and supported students solving exercises about variables, conditions, loops, functions, and object-orientied programming
+    tags:
+      - Java
+      - Basics
+      - Mentoring
+personal:
+  - name: Digital resume
+    highlights:
+      - Developed my personal site and resume using web technologies and frameworks
+      - Drafted the first iteration using the Jekyll static site generator to keep it light and simple
+      - Switched to Nuxt + Tailwind for learning purposes, increased flexibility, and ease of development with TypeScript
+      - 'Hosted publicly using GitHub Pages: https://briansinkovec.dev/resume'
+    tags:
+      - TypeScript
+      - Vue.js
+      - Nuxt
+      - Tailwind
+      - Yarn
+      - Font Awesome
+      - Prettier
+      - ESLint
+      - GitHub Pages
+      - Jekyll

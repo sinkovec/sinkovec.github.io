@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col p-8 gap-4 lowercase">
-    <div class="flex flex-col -space-y-4 text-8xl">
+  <div class="flex flex-col p-8 gap-2 lowercase">
+    <div class="flex gap-4 text-7xl">
       <span
         v-for="(item, index) in names"
         :key="index"

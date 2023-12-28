@@ -6,7 +6,10 @@
         <div v-for="(role, roleIndex) in item.roles" :key="roleIndex">
           <div class="flex justify-between">
             <span class="font-bold">{{ role.name }}</span>
-            <div class="flex self-center gap-0.5 italic text-gray-400 text-xs">
+            <div
+              v-if="role.startDate"
+              class="flex self-center gap-0.5 italic text-gray-400 text-xs"
+            >
               <span>{{ formatDate(role.startDate) }}</span>
               <span>-</span>
               <span v-if="role.endDate">{{ formatDate(role.endDate) }}</span>
@@ -33,7 +36,7 @@
           <Tag
             v-for="(tag, tagIndex) in item.tags"
             :key="tagIndex"
-            class="bg-opacity-20 px-1.5"
+            class="bg-opacity-10 px-1.5"
           >
             {{ tag }}
           </Tag>
@@ -48,8 +51,8 @@ import moment from 'moment'
 
 type Role = {
   name: string
-  startDate: Date
-  endDate: Date
+  startDate?: Date
+  endDate?: Date
 }
 
 type Organisation = {
