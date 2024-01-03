@@ -1,14 +1,14 @@
 <template>
   <section class="flex flex-col">
     <ResumeSectionTitle :title="title" class="bg-primary text-slate-100 px-4" />
-    <div class="flex flex-col px-4 pt-2 pb-4 gap-4 text-sm">
+    <div class="flex flex-col px-4 pt-2 pb-4 gap-4 text-xs">
       <div v-for="(item, index) in items" :key="index" class="flex flex-col">
         <div v-for="(role, roleIndex) in item.roles" :key="roleIndex">
           <div class="flex justify-between">
             <span class="font-bold">{{ role.name }}</span>
             <div
               v-if="role.startDate"
-              class="flex self-center gap-0.5 italic text-gray-400 text-xs"
+              class="flex self-center gap-0.5 italic text-gray-400"
             >
               <span>{{ formatDate(role.startDate) }}</span>
               <span>-</span>
@@ -22,8 +22,8 @@
             <span class="italic">{{ item.organisation.name }}</span>
           </NuxtLink>
         </div>
-        <span class="text-xs">{{ item.summary }}</span>
-        <div class="flex flex-col text-xs">
+        <span>{{ item.summary }}</span>
+        <div class="flex flex-col">
           <span
             v-for="(highlight, hightlightIndex) in item.highlights"
             :key="hightlightIndex"
@@ -36,7 +36,7 @@
           <Tag
             v-for="(tag, tagIndex) in item.tags"
             :key="tagIndex"
-            class="bg-opacity-10 px-1.5"
+            class="bg-opacity-[0.075] px-1.5 py-0.5"
           >
             {{ tag }}
           </Tag>

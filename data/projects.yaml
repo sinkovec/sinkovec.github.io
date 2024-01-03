@@ -17,7 +17,7 @@ academic:
       - Python
       - Latex
 
-  - name: Security Lab
+  - name: Security Lab Internship
     highlights:
       - Participation as part of the studies practical curriculum at the research group for IT-Security of RWTH Aachen University
       - Selected as one of 14 out of over 50 applicants by solving and properly documenting an entry challenge including password cracking, packet analysis, code de-obfuscation, etc.
@@ -53,6 +53,25 @@ academic:
       - Password managers
       - Offline verification attacks
       - Cryptography
+
+  - name: Operations Resarch Internship
+    highlights:
+      - Collaborated in an interdisciplinary team to address an industry challenge related to optimizing schematic network diagrams for electrical networks.
+      - Formalized the problem of finding an optimal orhtogonal visualization of a hierarchical graph as Mixed-Integer Linear Program (MILP)
+      - Developed a system that transforms a graph with geographical data into a set of constraints and objectives to be solved by the Gurobi MILP solver
+      - Presented to academic and industry experts our solutions capability to find optimized graph representations minimizing total area of the graph, interconnection crossings, and location overlaps for certain graph instances
+    tags:
+      - Operations Research
+      - MILP
+      - Modeling
+      - Python
+      - Gurobi
+      - PyQt5
+      - SVG
+      - Parsing
+      - Optimization
+      - Graphs
+      - Graph Visualization
 
   - name: Tutor at preparatory bridge course in computer science
     highlights:

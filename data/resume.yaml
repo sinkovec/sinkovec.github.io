@@ -83,7 +83,7 @@ work:
       - name: Research Assistant
         startDate: 2019-12-01
         endDate: 2021-04-30
-      - name: Apprenticeship MATSE
+      - name: Mathematical-technical Software Developer | Apprenticeship
         startDate: 2016-09-01
         endDate: 2019-08-31
     highlights:
@@ -107,26 +107,29 @@ education:
     degree: M.Sc.
     startDate: 2019-10-01
     endDate: 2023-01-31
-    score: 1,1 (with honors)
+    score: with distinction (1,1); ECTS-grading A
     thesis: Towards a software engineering view of security for microservice-based applications
     courses:
       - IT-Security
-      - Network security
-      - Security lab
-      - Object-oriented software construction
-      - Software project management
-      - Functional programming
-      - Compiler construction
-      - Complexity theory
+      - Network Security
+      - Security Lab
+      - Advanced Internet Technology
+      - Object-oriented Software Construction
+      - Software Project Management
+      - Software Language Engineering
+      - Operations Research
+      - Functional Programming
+      - Compiler Construction
+      - Complexity Theory
   - institution: FH Aachen - University of Applied Sciences
     url: https://fh-aachen.de/
     area: Scientific Programming
     degree: B.Sc.
     startDate: 2016-09-01
     endDate: 2019-08-31
-    score: 1,5
+    score: good (1,5); ECTS-grading B+
     thesis: Generating time-synchronous, distributed component & connector architectures
-    description: Dual study program (MATSE)
+    description: Dual study program (MATSE apprenticeship)
     courses:
       - Analysis
       - Linear Algebra
@@ -138,7 +141,7 @@ education:
       - Data Anaylsis
       - C++
       - Android
-      - Component-based software development
+      - Component-based Software Development
 
 programming:
   - Java

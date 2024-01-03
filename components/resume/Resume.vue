@@ -18,7 +18,7 @@
         </div>
         <div class="flex flex-col bg-slate-100 text-primary">
           <ResumeExperienceSection title="Education" :items="education" />
-          <ResumeExperienceSection title="Experience" :items="work" />
+          <ResumeExperienceSection title="Work Experience" :items="work" />
         </div>
       </div>
     </div>
