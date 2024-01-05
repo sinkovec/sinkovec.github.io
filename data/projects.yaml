@@ -85,7 +85,7 @@ personal:
   - name: Digital resume
     highlights:
       - Developed my personal site and resume using web technologies and frameworks
-      - Drafted the first iteration using the Jekyll static site generator to keep it light and simple
+      - Drafted the first iteration using the Jekyll static site generator to keep it simple
       - Switched to Nuxt + Tailwind for learning purposes, increased flexibility, and ease of development with TypeScript
       - 'Hosted publicly using GitHub Pages: https://briansinkovec.dev/resume'
     tags:
