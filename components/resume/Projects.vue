@@ -6,12 +6,12 @@
           class="flex flex-col w-a4 h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden p-8 bg-slate-100 text-primary"
         >
           <ResumeExperienceSection
-            title="Academic Projects"
-            :items="academic"
+            title="Professional Projects"
+            :items="professional"
           />
           <ResumeExperienceSection
-            title="Personal Projects"
-            :items="personal"
+            title="Academic Projects"
+            :items="academic"
           />
         </div>
       </div>
@@ -36,12 +36,12 @@ function projectMapper(item: any) {
   }
 }
 
-const academic = computed(() =>
-  data.academic.map((item: any) => projectMapper(item)),
+const professional = computed(() =>
+  data.professional.map((item: any) => projectMapper(item)),
 )
 
-const personal = computed(() =>
-  data.personal.map((item: any) => projectMapper(item)),
+const academic = computed(() =>
+  data.academic.map((item: any) => projectMapper(item)),
 )
 </script>
 

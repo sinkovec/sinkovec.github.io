@@ -24,13 +24,14 @@
         </div>
         <span>{{ item.summary }}</span>
         <div class="flex flex-col">
-          <span
+          <div
             v-for="(highlight, hightlightIndex) in item.highlights"
             :key="hightlightIndex"
+            class="flex gap-1"
           >
-            <FontAwesomeIcon icon="circle-check" />
+            <FontAwesomeIcon icon="angle-right" class="py-0.5" />
             {{ highlight }}
-          </span>
+          </div>
         </div>
         <div class="flex flex-wrap gap-1 pt-1 text-[0.5rem]">
           <Tag

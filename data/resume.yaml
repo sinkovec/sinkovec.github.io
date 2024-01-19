@@ -35,10 +35,7 @@ work:
     url: https://arvato-systems.com
     positions:
       - name: Software Engineer
-        startDate: 2023-02-01
-      - name: Software Developer | Working Student
         startDate: 2022-03-01
-        endDate: 2023-01-31
     summary: Built and maintained features to improve customer and developer experience for a reliable CMS platform hosted on Microsoft Azure.
     highlights:
       - Led development of automated APIM deployments with APIOps
@@ -64,7 +61,7 @@ work:
       - SCA
   - company: itestra GmbH
     positions:
-      - name: Software Developer | Working Student
+      - name: Software Developer
         startDate: 2021-05-01
         endDate: 2022-01-31
     url: https://itestra.de
@@ -143,12 +140,10 @@ education:
       - Android
       - Component-based Software Development
 
-programming:
+tech:
   - Java
   - Python
   - TypeScript
-
-tech:
   - DevSecOps
   - CI/CD
   - IaC

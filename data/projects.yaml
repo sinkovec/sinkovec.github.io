@@ -1,3 +1,67 @@
+professional:
+  - name: CoreMedia Content Management System (CMS) hosted in Azure Cloud
+    highlights:
+      - Direct contact for customers and development stakeholders regarding infrastructure, security and technical guidance
+      - Development, maintenance, and support of a cloud-hosted CoreMedia instance for a machine manufacturing company
+      - Improved exisiting CI/CD Azure and Jenkins pipelines, reducing time to deploy by over 50%
+      - Evaluated and integrated various DevSecOps tools, e.g., OWASP Dependency Check / Track, increasing awareness of supply chain risks and vulnerabilities
+      - Analyzed and elaborated best practices regarding JVM and Kubernetes memory efficiency using load testing with k6
+      - Implemented automatic secret management and rotation from Azure Keyvault into Kubernetes secrets using Azure CSI secret driver
+      - Developed REST APIs consumed by a technical sales app to fetch news and documents stored in CoreMedia
+      - Designed and implemented a platform to share technical documents between sales and customers, integrating technical sales app, Azure Blob Storage, and CoreMedia to provide a seamless customer experience
+      - Designed architectural infrastructure optimization to reduce complexity, costs, and to provide secure public access to internal services used by CoreMedia editors
+    tags:
+      - CoreMedia 10
+      - Azure
+      - AKS
+      - Kubernetes
+      - Docker
+      - Helm
+      - DevOps
+      - CI/CD
+      - Jenkins
+      - Azure DevOps
+      - Azure Blob Storage
+      - CDN
+      - Azure Frontdoor
+      - WAF
+      - Java
+      - Spring Boot
+      - Spring MVC
+      - Azure SDK
+      - Maven
+      - JUnit
+      - Mockito
+      - Architecture
+      - Scrum
+      - REST
+      - Monitoring
+      - Prometheus
+      - Grafana
+      - k6
+      - SonarQube
+      - SAST
+      - SCA
+
+  - name: Enablement of autonomous API teams using APIOps methodology
+    highlights:
+      - 'Problem: cumbersome manual integration and maintenance of product APIs into a centralized API gateway (Azure APIM)'
+      - Discussed, evaluated, and presented various IaC technologies for API development
+      - Implemented Microsofts APIOps methodology and tools, integrating GitOps with API development, and providing a concise structure and automated deployment pipelines for API specifications into Azure APIM
+      - Created technical documentation to onboard new product API teams quickly
+    tags:
+      - Azure Api Management
+      - APIOps
+      - OpenAPI
+      - IaC
+      - GitOps
+      - CI/CD
+      - Azure DevOps
+      - OAuth2
+      - Access control
+      - Enablement
+      - Team autonomy
+
 academic:
   - name: 'Master thesis: Towards a software engineering view of security for microservice-based applications'
     highlights:
@@ -42,17 +106,17 @@ academic:
       - WiFi hacking
       - Cold boot attacks
 
-  - name: Seminar paper
-    highlights:
-      - Enrolled for writing a seminar paper as part of the Security Lab about honey encryption and password managers
-      - Researched and reviewed relevant scientific publications about the theory of honey encryption
-      - Summarized and presented the shortcomings of traditional password vaults and how state-of-the-art honey vault techniques prevent offline verification attacks
-      - Performed peer-reviews among participants
-    tags:
-      - Honey encryption
-      - Password managers
-      - Offline verification attacks
-      - Cryptography
+  # - name: Seminar paper
+  #   highlights:
+  #     - Enrolled for writing a seminar paper as part of the Security Lab about honey encryption and password managers
+  #     - Researched and reviewed relevant scientific publications about the theory of honey encryption
+  #     - Summarized and presented the shortcomings of traditional password vaults and how state-of-the-art honey vault techniques prevent offline verification attacks
+  #     - Performed peer-reviews among participants
+  #   tags:
+  #     - Honey encryption
+  #     - Password managers
+  #     - Offline verification attacks
+  #     - Cryptography
 
   - name: Operations Resarch Internship
     highlights:
@@ -73,29 +137,29 @@ academic:
       - Graphs
       - Graph Visualization
 
-  - name: Tutor at preparatory bridge course in computer science
-    highlights:
-      - Taught programming fundamentals in Java to first year students in a remote fashion
-      - Supervised and supported students solving exercises about variables, conditions, loops, functions, and object-orientied programming
-    tags:
-      - Java
-      - Basics
-      - Mentoring
-personal:
-  - name: Digital resume
-    highlights:
-      - Developed my personal site and resume using web technologies and frameworks
-      - Drafted the first iteration using the Jekyll static site generator to keep it simple
-      - Switched to Nuxt + Tailwind for learning purposes, increased flexibility, and ease of development with TypeScript
-      - 'Hosted publicly using GitHub Pages: https://briansinkovec.dev/resume'
-    tags:
-      - TypeScript
-      - Vue.js
-      - Nuxt
-      - Tailwind
-      - Yarn
-      - Font Awesome
-      - Prettier
-      - ESLint
-      - GitHub Pages
-      - Jekyll
+  # - name: Tutor at preparatory bridge course in computer science
+  #   highlights:
+  #     - Taught programming fundamentals in Java to first year students in a remote fashion
+  #     - Supervised and supported students solving exercises about variables, conditions, loops, functions, and object-orientied programming
+  #   tags:
+  #     - Java
+  #     - Basics
+  #     - Mentoring
+# personal:
+#   - name: Digital resume
+#     highlights:
+#       - Developed my personal site and resume using web technologies and frameworks
+#       - Drafted the first iteration using the Jekyll static site generator to keep it simple
+#       - Switched to Nuxt + Tailwind for learning purposes, increased flexibility, and ease of development with TypeScript
+#       - 'Hosted publicly using GitHub Pages: https://briansinkovec.dev/resume'
+#     tags:
+#       - TypeScript
+#       - Vue.js
+#       - Nuxt
+#       - Tailwind
+#       - Yarn
+#       - Font Awesome
+#       - Prettier
+#       - ESLint
+#       - GitHub Pages
+#       - Jekyll
