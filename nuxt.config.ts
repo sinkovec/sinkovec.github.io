@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   typescript: { typeCheck: true },
   modules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
   css: ['@fortawesome/fontawesome-svg-core/styles.css'],
+
   build: {
     transpile: [
       '@fortawesome/vue-fontawesome',
@@ -15,7 +16,10 @@ export default defineNuxtConfig({
       '@fortawesome/free-brands-svg-icons',
     ],
   },
+
   vite: {
     plugins: [ViteYaml()],
   },
+
+  compatibilityDate: '2024-10-12',
 })
