@@ -1,6 +1,5 @@
 // For Nuxt 3
 import { library, config } from '@fortawesome/fontawesome-svg-core'
-/* eslint-disable import/named */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
