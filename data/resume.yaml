@@ -31,19 +31,44 @@ basics:
       url: https://xing.com/profile/Brian_Sinkovec
 
 work:
+  - company: "]init[ AG für digitale Kommunikation"
+    url: https://init.de/en
+    positions:
+      - name: Senior DevOps Engineer 
+        startDate: 2024-06-01
+    summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise. 
+    highlights:
+      - Implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
+    tags:
+      - Bash
+      - Linux
+      - RHEL
+      - Jenkins
+      - SCM Manager
+      - Nexus
+      - IQ Server
+      - Oracle DB
+      - Artemis
+      - Maven
+      - Java
+      - Spring Boot
+      - Actuator
+      - JMS
+      - Spring Boot Admin
   - company: Arvato Systems GmbH
     url: https://arvato-systems.com
     positions:
       - name: Software Engineer
         startDate: 2022-03-01
-    summary: Built and maintained features to improve customer and developer experience for a reliable CMS platform hosted on Microsoft Azure.
+        endDate: 2024-05-31
+    summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
     highlights:
       - Led development of automated APIM deployments with APIOps
       - Led design and implementation of backend services for a platform to share technical documents between sales and customers
       - Drove continuous improvement of CI/CD pipelines, e.g., reducing deployment time by parallelizing pipeline tasks
       - Advanced security tooling & awareness through discussions and presentations
       - Removed manual intervention of Kubernetes secrets by implementing management and automatic rotation of Kubernetes secrets with CSI driver & keyvault
-      - Developed REST APIs for technical sales app
+      # - Developed REST APIs for technical sales app
     tags:
       - Java
       - Spring Boot
@@ -61,19 +86,19 @@ work:
       - SCA
   - company: itestra GmbH
     positions:
-      - name: Software Developer
+      - name: Software Developer | Working Student
         startDate: 2021-05-01
         endDate: 2022-01-31
     url: https://itestra.de
     highlights:
-      - Developed backend/UI to display people relations in an insurance web app
-      - Created automated unit and integration tests with JUnit
+      #- Developed backend/UI to display people relations in an insurance web app
+      #- Created automated unit and integration tests with JUnit
     tags:
-      - Java
-      - Spring Boot
-      - Angular
-      - COBOL
-      - JUnit
+      #- Java
+      #- Spring Boot
+      #- Angular
+      #- COBOL
+      #- JUnit
   - company: Chair of Software Engineering, RWTH Aachen University
     url: https://se-rwth.de
     positions:
@@ -84,18 +109,18 @@ work:
         startDate: 2016-09-01
         endDate: 2019-08-31
     highlights:
-      - Implemented semantic differencing algorithms in Java
-      - Development of DSLs and services to manage TV license restrictions
-      - Development of the MontiCore language workbench and DSLs with MDD
+      #- Implemented semantic differencing algorithms in Java
+      #- Development of DSLs and services to manage TV license restrictions
+      #- Development of the MontiCore language workbench and DSLs with MDD
     tags:
-      - Java
-      - Spring Boot
-      - Gitlab
-      - Docker
-      - MontiCore
-      - MDD
-      - DLSs
-      - UML
+      #- Java
+      #- Spring Boot
+      #- Gitlab
+      #- Docker
+      #- MontiCore
+      #- MDD
+      #- DLSs
+      #- UML
 
 education:
   - institution: RWTH Aachen University
