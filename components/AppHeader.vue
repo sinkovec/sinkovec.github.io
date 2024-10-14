@@ -34,11 +34,11 @@ type NavigationItem = {
 const navigation: NavigationItem[] = [
   {
     title: 'blog',
-    path: 'blog',
+    path: '/blog',
   },
   {
     title: 'resume',
-    path: 'resume',
+    path: '/resume',
   },
 ]
 </script>
