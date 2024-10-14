@@ -1,5 +1,5 @@
 <template>
-  <div class="py-2">
+  <div class="flex justify-between py-2">
     <div>
       <NuxtLink to="/">
         <span
@@ -9,11 +9,15 @@
         </span>
       </NuxtLink>
     </div>
-    <nav>
-      <ul class="flex">
+    <nav class="content-center">
+      <ul class="flex gap-4">
         <li v-for="nav of navigation" :key="nav.title">
           <NuxtLink :to="nav.path">
-            {{ nav.title }}
+            <span
+              class="text-secondary hover:underline underline-offset-2 decoration-1"
+            >
+              {{ nav.title }}
+            </span>
           </NuxtLink>
         </li>
       </ul>
@@ -27,5 +31,14 @@ type NavigationItem = {
   path: string
 }
 
-const navigation: NavigationItem[] = []
+const navigation: NavigationItem[] = [
+  {
+    title: 'blog',
+    path: 'blog',
+  },
+  {
+    title: 'resume',
+    path: 'resume',
+  },
+]
 </script>
