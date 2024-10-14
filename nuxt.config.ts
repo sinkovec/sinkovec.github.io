@@ -22,6 +22,12 @@ export default defineNuxtConfig({
     ],
   },
 
+  content: {
+    highlight: {
+      theme: 'github-dark'
+    }
+  },
+
   tailwindcss: {
     config: {
       plugins: [require('@tailwindcss/typography')],

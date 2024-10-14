@@ -4,8 +4,10 @@
   >
     <div class="w-4/5 2xl:w-1/2 flex flex-col">
       <AppHeader />
-      <div class="flex-1 py-4">
-        <slot />
+      <div class="grow flex justify-center py-4">
+        <div class="w-4/5 xl:w-2/3 *:min-w-full">
+          <slot />
+        </div>
       </div>
       <AppFooter />
     </div>
