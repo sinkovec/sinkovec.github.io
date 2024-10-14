@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
   typescript: { typeCheck: true },
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss', '@nuxt/content'],
   css: ['@fortawesome/fontawesome-svg-core/styles.css'],
 
   build: {
