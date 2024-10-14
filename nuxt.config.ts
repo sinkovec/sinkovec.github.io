@@ -5,7 +5,12 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
   typescript: { typeCheck: true },
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss', '@nuxt/content'],
+  modules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/content',
+    '@nuxt/image',
+  ],
   css: ['@fortawesome/fontawesome-svg-core/styles.css'],
 
   build: {
@@ -15,6 +20,12 @@ export default defineNuxtConfig({
       '@fortawesome/free-solid-svg-icons',
       '@fortawesome/free-brands-svg-icons',
     ],
+  },
+
+  tailwindcss: {
+    config: {
+      plugins: [require('@tailwindcss/typography')],
+    },
   },
 
   vite: {
