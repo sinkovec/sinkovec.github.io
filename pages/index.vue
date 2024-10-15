@@ -18,8 +18,8 @@
         <span class="font-bold">DevSecOps</span>
       </li>
       <li>
-        Proficient in Java + Spring Boot, cloud technologies like k8s, and a
-        few other things
+        Proficient in Java + Spring Boot, cloud technologies like k8s, and a few
+        other things
       </li>
       <li>Advocates clean code, *-as-code, and to keep it simple.</li>
       <li>Always forgets the fourth one...</li>
