@@ -1,3 +1,7 @@
+---
+date: 2024-01-01
+---
+
 # h1 Heading
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla efficitur sodales. Curabitur porttitor dui a condimentum vulputate. Pellentesque ligula enim, tempor sit amet feugiat vitae, consectetur sed quam. Nullam et massa eget purus faucibus congue. Duis dapibus est sed massa efficitur dignissim. Sed lobortis euismod augue. Nam id bibendum mi, maximus mollis diam. Integer vitae lectus vitae orci convallis suscipit vel et odio. Mauris varius turpis sed lacus aliquet ornare. Suspendisse at posuere nibh. Ut pulvinar sodales libero at auctor. Morbi volutpat nibh a lacus sollicitudin egestas.
