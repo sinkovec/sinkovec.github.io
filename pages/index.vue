@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col space-y-4 text-xl">
-    <img src="/assets/img/bio-photo.png" class="mx-auto w-1/2" />
+    <NuxtImg src="/img/bio-photo.png" class="mx-auto w-1/2" />
     <p>
       Hi, my name is Brian Sinkovec and I'm an enthusiastic software engineer
       from Aachen, Germany. I graduated from
