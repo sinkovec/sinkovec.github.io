@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Resume />
-  </div>
+  <Resume />
 </template>
 
 <script lang="ts" setup>

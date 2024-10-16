@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <ResumeProjects />
-  </div>
+  <ResumeProjects />
 </template>
 
 <script lang="ts" setup>

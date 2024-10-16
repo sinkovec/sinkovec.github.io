@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col space-y-4 text-xl">
-    <img src="/assets/img/bio-photo.png" class="mx-auto w-1/2" />
+    <img src="/assets/img/bio-photo.png" class="mx-auto w-1/2 lg:w-1/3" />
     <p>
       Hi, my name is Brian Sinkovec and I'm an enthusiastic software engineer
       from Aachen, Germany. I graduated from
