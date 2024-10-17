@@ -8,8 +8,9 @@
           </NuxtLink>
         </li>
       </ul>
-      <p class="text-secondary">
-        © Copyright 2023 Brian Sinkovec. All rights reserved.
+      <p class="text-secondary *:inline-block text-center *:px-0.5">
+        <span>© Copyright 2023 Brian Sinkovec.</span>
+        <span>All rights reserved.</span>
       </p>
     </div>
   </div>
