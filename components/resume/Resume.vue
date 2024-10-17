@@ -1,7 +1,5 @@
-<template >
-  <div
-    class="grid grid-cols-[33%_67%] min-h-full"
-  >
+<template>
+  <div class="grid grid-cols-[33%_67%] min-h-full">
     <ResumeBioPhoto class="bg-primary" />
     <ResumeHeader
       :name="data.basics.name"
