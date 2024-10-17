@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="isOpen = !isOpen">
-      <FontAwesomeIcon icon="bars" />
+      <FontAwesomeIcon icon="bars" size="lg" />
     </button>
     <Transition
       enter-from-class="opacity-0"
@@ -11,7 +11,7 @@
     >
       <div
         v-if="isOpen"
-        class="fixed z-10 inset-0 w-full h-full bg-primary bg-opacity-90"
+        class="fixed z-10 inset-0 w-full h-full bg-primary/90 backdrop-blur-sm"
         @click="isOpen = false"
       />
     </Transition>
@@ -23,12 +23,10 @@
     >
       <div
         v-if="isOpen"
-        class="fixed z-20 inset-y-0 right-0 w-1/3 h-full bg-primary"
+        class="fixed z-20 inset-y-0 right-0 w-2/5 h-full bg-primary shadow-2xl shadow-black"
+        @click="isOpen = false"
       >
-        <NavigationList
-          class="flex flex-col py-8 text-center"
-          @click="isOpen = false"
-        />
+        <NavigationList class="flex flex-col py-8 text-center" />
       </div>
     </Transition>
   </div>
