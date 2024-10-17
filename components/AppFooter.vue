@@ -3,7 +3,7 @@
     <div class="flex-col">
       <ul class="flex justify-center py-2">
         <li v-for="item of socialItems" :key="item.name" class="px-3">
-          <NuxtLink :to="item.link">
+          <NuxtLink :to="item.link" class="text-white">
             <FontAwesomeIcon :icon="item.icon" size="xl" />
           </NuxtLink>
         </li>

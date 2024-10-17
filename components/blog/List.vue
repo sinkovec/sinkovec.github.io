@@ -9,11 +9,7 @@
             class="flex justify-center"
           >
             <NuxtLink :to="post._path">
-              <span
-                class="text-xl text-secondary hover:underline underline-offset-2 decoration-1 py-4"
-              >
-                {{ post.title }}
-              </span>
+              <span class="text-xl py-4">{{ post.title }}</span>
             </NuxtLink>
           </div>
         </div>

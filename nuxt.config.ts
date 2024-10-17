@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/image',
   ],
-  css: ['@fortawesome/fontawesome-svg-core/styles.css'],
+  css: ['assets/css/main.css', '@fortawesome/fontawesome-svg-core/styles.css'],
 
   build: {
     transpile: [

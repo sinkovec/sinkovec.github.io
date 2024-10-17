@@ -2,9 +2,7 @@
   <ul class="gap-4">
     <li v-for="nav of navigation" :key="nav.title">
       <NuxtLink :to="nav.path">
-        <span class="hover:underline underline-offset-2 decoration-1">
-          {{ nav.title }}
-        </span>
+        <span>{{ nav.title }}</span>
       </NuxtLink>
     </li>
   </ul>

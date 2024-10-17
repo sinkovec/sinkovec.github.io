@@ -4,8 +4,8 @@
     <p>
       Hi, my name is Brian Sinkovec and I'm an enthusiastic software engineer
       from Aachen, Germany. I graduated from
-      <NuxtLink to="https://www.rwth-aachen.de"
-        >RWTH Aachen University
+      <NuxtLink to="https://www.rwth-aachen.de">
+        RWTH Aachen University
       </NuxtLink>
       in 2023 and obtained my master's degree in computer science with honors.
       Besides being a nerd, I like coffee, hiking, martial arts, Marvel, and
