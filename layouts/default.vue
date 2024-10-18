@@ -1,11 +1,9 @@
 <template>
-  <div
-    class="min-h-screen min-w-full flex justify-center bg-primary text-white"
-  >
-    <div class="w-4/5 2xl:w-1/2 flex flex-col">
+  <div class="min-h-screen flex justify-center">
+    <div class="w-11/12 flex flex-col">
       <AppHeader />
-      <div class="grow flex justify-center py-4">
-        <div class="lg:w-4/5 xl:w-2/3 *:min-w-full">
+      <div class="flex justify-center grow py-4">
+        <div class="lg:w-2/3">
           <slot />
         </div>
       </div>

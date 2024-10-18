@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer base {
-  a {
-    @apply text-secondary hover:underline underline-offset-2 decoration-1
-  }
+    body {
+        @apply bg-primary text-white
+    }
+    a {
+        @apply text-secondary hover:underline underline-offset-2 decoration-1
+    }
 }
