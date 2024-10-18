@@ -9,18 +9,15 @@ export default <Partial<Config>>{
           raw: 'print',
         },
       },
-      width: {
+      maxWidth: {
         a4: '210mm',
       },
-      height: {
+      maxHeight: {
         a4: '297mm',
       },
       colors: {
         primary: '#181818',
         secondary: '#a6a6a6',
-      },
-      divideWidth: {
-        '1/2': '0.5px',
       },
     },
   },
