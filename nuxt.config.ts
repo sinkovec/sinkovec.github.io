@@ -2,6 +2,11 @@ import ViteYaml from '@modyfi/vite-plugin-yaml'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'brian sinkovec',
+    },
+  },
   ssr: false,
   devtools: { enabled: true },
   typescript: { typeCheck: true },
