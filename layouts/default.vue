@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex justify-center">
+  <div class="min-h-dvh flex justify-center">
     <div class="w-11/12 flex flex-col">
       <AppHeader />
       <div class="flex justify-center grow py-4">
