@@ -25,20 +25,20 @@ const contact = computed(() => {
   const result = [
     {
       text: `${data.basics.location.city}, ${data.basics.location.region}`,
-      icon: ['fas', 'location-dot'],
+      icon: 'fa6-solid:location-dot',
     },
     {
       text: data.basics.email,
-      icon: ['fas', 'envelope'],
+      icon: 'fa6-solid:envelope',
       link: 'mailto:' + data.basics.email,
     },
   ]
 
   data.basics.profiles.forEach(
-    (profile: { username: string; faIcon: string[]; url: string }) => {
+    (profile: { username: string; icon: string; url: string }) => {
       result.push({
         text: profile.username,
-        icon: profile.faIcon,
+        icon: profile.icon,
         link: profile.url,
       })
     },

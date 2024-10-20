@@ -9,10 +9,10 @@ export default <Partial<Config>>{
           raw: 'print',
         },
       },
-      maxWidth: {
+      width: {
         a4: '210mm',
       },
-      maxHeight: {
+      height: {
         a4: '297mm',
       },
       colors: {

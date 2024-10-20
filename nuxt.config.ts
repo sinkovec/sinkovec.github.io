@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxt/image',
+    '@nuxt/icon',
   ],
   css: ['assets/css/main.css', '@fortawesome/fontawesome-svg-core/styles.css'],
 

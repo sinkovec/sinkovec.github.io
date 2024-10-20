@@ -6,7 +6,7 @@
     />
     <div class="flex flex-wrap justify-center px-4 pt-2 pb-4 gap-1.5 text-sm">
       <Tag v-for="(item, index) in items" :key="index" class="px-3 py-0.5">
-        {{ item }}
+        <span>{{ item }}</span>
       </Tag>
     </div>
   </section>

@@ -3,7 +3,7 @@
     class="backdrop-brightness-200 min-h-screen flex justify-center py-16 print:p-0"
   >
     <div
-      class="max-w-a4 max-h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden"
+      class="w-a4 h-a4 paper:shadow-2xl paper:rounded-xl overflow-hidden"
     >
       <slot />
     </div>

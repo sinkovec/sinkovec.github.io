@@ -29,7 +29,7 @@
             :key="hightlightIndex"
             class="flex gap-1"
           >
-            <FontAwesomeIcon icon="angle-right" class="py-0.5" />
+            <span class="translate-y-0.5"><Icon name="fa6-solid:angle-right" /></span>
             {{ highlight }}
           </div>
         </div>

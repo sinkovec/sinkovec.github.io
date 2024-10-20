@@ -14,19 +14,19 @@ basics:
     region: Germany
   profiles:
     - network: Website
-      faIcon: ['fas', 'globe']
+      icon: material-symbols:globe
       username: briansinkovec.dev
       url: https://briansinkovec.dev
     - network: GitHub
-      faIcon: ['fab', 'github']
+      icon: fa6-brands:github
       username: sinkovec
       url: https://www.github.com/sinkovec
     - network: LinkedIn
-      faIcon: ['fab', 'linkedin']
+      icon: fa6-brands:linkedin
       username: brian-sinkovec
       url: https://linkedin.com/in/brian-sinkovec
     - network: Xing
-      faIcon: ['fab', 'xing']
+      icon: fa6-brands:xing
       username: Brian_Sinkovec
       url: https://xing.com/profile/Brian_Sinkovec
 
