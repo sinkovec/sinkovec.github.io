@@ -1,7 +1,7 @@
 <template>
   <div>
-    <button @click="isOpen = !isOpen">
-      <FontAwesomeIcon icon="bars" size="lg" />
+    <button @click="isOpen = !isOpen" class="flex items-center">
+      <Icon name="fa6-solid:bars" class="text-xl" />
     </button>
     <Transition
       enter-from-class="opacity-0"
@@ -33,7 +33,5 @@
 </template>
 
 <script lang="ts" setup>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
 const isOpen = ref(false)
 </script>

@@ -17,16 +17,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
   ],
-  css: ['assets/css/main.css', '@fortawesome/fontawesome-svg-core/styles.css'],
-
-  build: {
-    transpile: [
-      '@fortawesome/vue-fontawesome',
-      '@fortawesome/fontawesome-svg-core',
-      '@fortawesome/free-solid-svg-icons',
-      '@fortawesome/free-brands-svg-icons',
-    ],
-  },
+  css: ['assets/css/main.css'],
 
   content: {
     contentHead: false,
