@@ -38,23 +38,29 @@ work:
         startDate: 2024-06-01
     summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise. 
     highlights:
-      - Implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
+      - Designing and implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
+      - Supporting engineers building efficient Gitlab CI pipelines and deploying their application to OKD clusters using Helm, ArgoCD, and GitOps principles
+      - Contributing to the company internal DevOps community on knowledge management and transfer, bridging gaps between development and operations departments
     tags:
+      - Kubernetes
+      - OKD
+      - Docker
+      - Gitlab
+      - Jenkins
       - Bash
       - Linux
-      - RHEL
-      - Jenkins
-      - SCM Manager
-      - Nexus
-      - IQ Server
-      - Oracle DB
-      - Artemis
+      - Harbor
+      - ArgoCD
+      - Helm
+      - Azure
+      - Prometheus
+      - Grafana
+      - Graylog
+      - SAST
+      - SCA
       - Maven
       - Java
       - Spring Boot
-      - Actuator
-      - JMS
-      - Spring Boot Admin
   - company: Arvato Systems GmbH
     url: https://arvato-systems.com
     positions:
@@ -64,8 +70,8 @@ work:
     summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
     highlights:
       - Led development of automated APIM deployments with APIOps
-      - Led design and implementation of backend services for a platform to share technical documents between sales and customers
-      - Drove continuous improvement of CI/CD pipelines, e.g., reducing deployment time by parallelizing pipeline tasks
+      - Designed and implemented services for a platform to share technical documents between sales and customers
+      - Promoted continuous improvement of CI/CD pipelines, e.g., reducing deployment time by parallelizing pipeline tasks
       - Advanced security tooling & awareness through discussions and presentations
       - Removed manual intervention of Kubernetes secrets by implementing management and automatic rotation of Kubernetes secrets with CSI driver & keyvault
       # - Developed REST APIs for technical sales app
@@ -84,43 +90,6 @@ work:
       - OWASP Dependency Check
       - SAST
       - SCA
-  - company: itestra GmbH
-    positions:
-      - name: Software Developer | Working Student
-        startDate: 2021-05-01
-        endDate: 2022-01-31
-    url: https://itestra.de
-    highlights:
-      #- Developed backend/UI to display people relations in an insurance web app
-      #- Created automated unit and integration tests with JUnit
-    tags:
-      #- Java
-      #- Spring Boot
-      #- Angular
-      #- COBOL
-      #- JUnit
-  - company: Chair of Software Engineering, RWTH Aachen University
-    url: https://se-rwth.de
-    positions:
-      - name: Research Assistant
-        startDate: 2019-12-01
-        endDate: 2021-04-30
-      - name: Mathematical-technical Software Developer | Apprenticeship
-        startDate: 2016-09-01
-        endDate: 2019-08-31
-    highlights:
-      #- Implemented semantic differencing algorithms in Java
-      #- Development of DSLs and services to manage TV license restrictions
-      #- Development of the MontiCore language workbench and DSLs with MDD
-    tags:
-      #- Java
-      #- Spring Boot
-      #- Gitlab
-      #- Docker
-      #- MontiCore
-      #- MDD
-      #- DLSs
-      #- UML
 
 education:
   - institution: RWTH Aachen University
@@ -153,17 +122,17 @@ education:
     thesis: Generating time-synchronous, distributed component & connector architectures
     description: Dual study program (MATSE apprenticeship)
     courses:
+      - Software Engineering
+      - Algorithms & Data structures
+      - Java
+      - Database Theory
       - Analysis
       - Linear Algebra
-      - Programming
-      - Java
-      - Algorithms & Data structures
-      - Databases
-      - Software Engineering
       - Data Anaylsis
+      - Data Science
       - C++
-      - Android
-      - Component-based Software Development
+      - Android Development
+      - Component-based Software Engineering
 
 tech:
   - Java
@@ -172,29 +141,31 @@ tech:
   - DevSecOps
   - CI/CD
   - IaC
+  - GitOps
   - Clean Code
-  - Ethical Hacking
   - Kubernetes
   - Docker
+  - ArgoCD
+  - Harbor
   - Helm
   - Prometheus
   - Grafana
-  - Azure
-  - APIM
+  - Azure Cloud
   - Azure DevOps
   - Keyvault
+  - Sealed Secrets
   - GitHub
   - Jenkins
   - Linux
   - Bash
   - Git
-  - Web Dev
   - Spring Boot
   - Spring MVC
   - JUnit
   - Maven
   - OpenAPI
   - MongoDB
+  - Postgres
   - Vue
   - Nuxt
   - Tailwind
@@ -204,8 +175,8 @@ skills:
   - Kanban
   - Supportive
   - Team-oriented
-  - Reliable
   - Problem-solving
+  - Reliable
   - Resilient
   - English
   - German
