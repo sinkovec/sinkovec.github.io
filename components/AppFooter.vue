@@ -9,7 +9,7 @@
         </li>
       </ul>
       <p class="text-secondary *:inline-block text-center *:px-0.5">
-        <span>© Copyright 2023 Brian Sinkovec.</span>
+        <span>© Copyright {{ new Date().getFullYear() }} Brian Sinkovec.</span>
         <span>All rights reserved.</span>
       </p>
     </div>
