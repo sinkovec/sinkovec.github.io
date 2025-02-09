@@ -4,9 +4,9 @@
 
 @layer base {
     body {
-        @apply bg-primary text-white
+        @apply bg-primary text-secondary
     }
     a {
-        @apply text-secondary hover:underline underline-offset-2 decoration-1
+        @apply text-gray-400 hover:underline underline-offset-2 decoration-1
     }
 }

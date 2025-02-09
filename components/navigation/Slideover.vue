@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="isOpen = !isOpen" class="flex items-center">
+    <button class="flex items-center" @click="isOpen = !isOpen">
       <Icon name="fa6-solid:bars" class="text-xl" />
     </button>
     <Transition
