@@ -13,176 +13,179 @@ basics:
     countryCode: DE
     region: Germany
   profiles:
-    - network: Website
-      icon: material-symbols:globe
-      username: briansinkovec.dev
-      url: https://briansinkovec.dev
-    - network: GitHub
-      icon: fa6-brands:github
-      username: sinkovec
-      url: https://www.github.com/sinkovec
-    - network: LinkedIn
-      icon: fa6-brands:linkedin
-      username: brian-sinkovec
-      url: https://linkedin.com/in/brian-sinkovec
-    - network: Xing
-      icon: fa6-brands:xing
-      username: Brian_Sinkovec
-      url: https://xing.com/profile/Brian_Sinkovec
+  - network: Website
+    icon: material-symbols:globe
+    username: briansinkovec.dev
+    url: https://briansinkovec.dev
+  - network: GitHub
+    icon: fa6-brands:github
+    username: sinkovec
+    url: https://www.github.com/sinkovec
+  - network: LinkedIn
+    icon: fa6-brands:linkedin
+    username: brian-sinkovec
+    url: https://linkedin.com/in/brian-sinkovec
 
 work:
-  - company: "]init[ AG für digitale Kommunikation"
-    url: https://init.de/en
-    positions:
-      - name: Senior DevOps Engineer 
-        startDate: 2024-06-01
-    summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise. 
-    highlights:
-      - Designing and implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
-      - Supporting engineers building efficient Gitlab CI pipelines and deploying their application to OKD clusters using Helm, ArgoCD, and GitOps principles
-      - Contributing to the company internal DevOps community on knowledge management and transfer, bridging gaps between development and operations departments
-    tags:
-      - Kubernetes
-      - OKD
-      - Docker
-      - Gitlab
-      - Jenkins
-      - Bash
-      - Linux
-      - Harbor
-      - ArgoCD
-      - Helm
-      - Azure
-      - Prometheus
-      - Grafana
-      - Graylog
-      - SAST
-      - SCA
-      - Maven
-      - Java
-      - Spring Boot
-  - company: Arvato Systems GmbH
-    url: https://arvato-systems.com
-    positions:
-      - name: Software Engineer
-        startDate: 2022-03-01
-        endDate: 2024-05-31
-    summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
-    highlights:
-      - Led development of automated APIM deployments with APIOps
-      - Designed and implemented platform services to share technical documents and related products between sales and customers
-      - Promoted continuous improvement of CI/CD pipelines, e.g., reducing deployment time by parallelizing pipeline tasks
-      - Advanced security tooling & awareness through discussions and presentations
-      - Removed manual intervention of Kubernetes secrets by implementing management and automatic rotation of Kubernetes secrets using secrets store CSI driver & keyvault
-      # - Developed REST APIs for technical sales app
-    tags:
-      - Java
-      - Spring Boot
-      - OpenAPI
-      - Azure Api Mangement
-      - Azure
-      - Docker
-      - Kubernetes
-      - Helm
-      - Azure Keyvault
-      - Azure DevOps
-      - CoreMedia
-      - OWASP Dependency Check
-      - SAST
-      - SCA
-
-education:
-  - institution: RWTH Aachen University
-    url: https://rwth-aachen.de/
-    area: Computer Science
-    degree: M.Sc.
-    startDate: 2019-10-01
-    endDate: 2023-01-31
-    score: with distinction (1,1); ECTS-grading A
-    thesis: Towards a software engineering view of security for microservice-based applications
-    courses:
-      - IT-Security
-      - Network Security
-      - Security Lab
-      - Advanced Internet Technology
-      - Object-oriented Software Construction
-      - Software Project Management
-      - Software Language Engineering
-      - Operations Research
-      - Functional Programming
-      - Compiler Construction
-      - Complexity Theory
-  - institution: FH Aachen - University of Applied Sciences
-    url: https://fh-aachen.de/
-    area: Scientific Programming
-    degree: B.Sc.
-    startDate: 2016-09-01
-    endDate: 2019-08-31
-    score: good (1,5); ECTS-grading B+
-    thesis: Generating time-synchronous, distributed component & connector architectures
-    description: Dual study program (MATSE apprenticeship)
-    courses:
-      - Software Engineering
-      - Algorithms & Data structures
-      - Java
-      - Database Theory
-      - Analysis
-      - Linear Algebra
-      - Data Anaylsis
-      - Data Science
-      - C++
-      - Android Development
-      - Component-based Software Engineering
-
-tech:
-  - Java
-  - Python
-  - TypeScript
-  - DevSecOps
-  - CI/CD
-  - IaC
-  - GitOps
-  - Clean Code
+- company: "]init[ AG für digitale Kommunikation"
+  url: https://init.de/en
+  positions:
+  - name: Senior DevOps Engineer
+    startDate: 2024-06-01
+  summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise.
+  highlights:
+  - Designing and implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
+  - Supporting engineers building efficient Gitlab CI pipelines and deploying their application to OKD clusters using Helm, ArgoCD, and GitOps principles
+  - Contributing to the company internal DevOps community on knowledge management and transfer, bridging gaps between development and operations departments
+  tags:
   - Kubernetes
+  - OKD
   - Docker
-  - ArgoCD
+  - Gitlab
+  - Jenkins
+  - Bash
+  - Linux
   - Harbor
+  - ArgoCD
   - Helm
+  - Azure
   - Prometheus
   - Grafana
-  - Azure Cloud
-  - Azure DevOps
-  - Keyvault
-  - Sealed Secrets
-  - GitHub
-  - Jenkins
-  - Linux
-  - Bash
-  - Git
-  - Spring Boot
-  - Spring MVC
-  - JUnit
+  - Graylog
+  - SAST
+  - SCA
   - Maven
+  - Java
+  - Spring Boot
+- company: Arvato Systems GmbH
+  url: https://arvato-systems.com
+  positions:
+  - name: Software Engineer
+    startDate: 2022-03-01
+    endDate: 2024-05-31
+  summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
+  highlights:
+  - Led development of automated APIM deployments with APIOps
+  - Designed and implemented platform services to share technical documents and related products between sales and customers
+  - Promoted continuous improvement of CI/CD pipelines, e.g., reducing deployment time by parallelizing pipeline tasks
+  - Advanced security tooling & awareness through discussions and presentations
+  - Removed manual intervention of Kubernetes secrets by implementing management and automatic rotation of Kubernetes secrets using secrets store CSI driver & keyvault
+  # - Developed REST APIs for technical sales app
+  tags:
+  - Java
+  - Spring Boot
   - OpenAPI
-  - MongoDB
-  - Postgres
-  - Vue
-  - Nuxt
-  - Tailwind
+  - Azure Api Mangement
+  - Azure
+  - Docker
+  - Kubernetes
+  - Helm
+  - Azure Keyvault
+  - Azure DevOps
+  - CoreMedia
+  - OWASP Dependency Check
+  - SAST
+  - SCA
+
+education:
+- institution: RWTH Aachen University
+  url: https://rwth-aachen.de/
+  area: Computer Science
+  degree: M.Sc.
+  startDate: 2019-10-01
+  endDate: 2023-01-31
+  score: with distinction (1,1); ECTS-grading A
+  thesis: Towards a software engineering view of security for microservice-based applications
+  courses:
+  - IT-Security
+  - Network Security
+  - Security Lab
+  - Advanced Internet Technology
+  - Object-oriented Software Construction
+  - Software Project Management
+  - Software Language Engineering
+  - Operations Research
+  - Functional Programming
+  - Compiler Construction
+  - Complexity Theory
+- institution: FH Aachen - University of Applied Sciences
+  url: https://fh-aachen.de/
+  area: Scientific Programming
+  degree: B.Sc.
+  startDate: 2016-09-01
+  endDate: 2019-08-31
+  score: good (1,5); ECTS-grading B+
+  thesis: Generating time-synchronous, distributed component & connector architectures
+  description: Dual study program (MATSE apprenticeship)
+  courses:
+  - Software Engineering
+  - Algorithms & Data structures
+  - Java
+  - Database Theory
+  - Analysis
+  - Linear Algebra
+  - Data Anaylsis
+  - Data Science
+  - C++
+  - Android Development
+  - Component-based Software Engineering
+
+personal:
+- title: Homelab
+  repo: sinkovec/homelab
+  url: https://github.com
+  summary: A personal, Kubernetes-powered homelab to self-host open-source apps and tinker with cloud-native tools
+  highlights:
+  - Built on a Raspberry Pi 4 and k3s, then scaled to a HP Elitedesk 800 G4 running Talos Linux
+  - Based on GitOps and automation principles using FluxCD, Helm, Kustomize, and Terraform
+  - OIDC authentication with Authentik to kube-apiserver and hosted apps
+  - Continuous monitoring, policy, and security auditing with Prometheus, Kyverno, Trivy
+  - Automated patching with Renovate bot
+  tags:
+
+
+tech:
+- Bash
+- Python
+- Git
+- Kubernetes
+- Docker
+- Linux
+- Azure
+- Terraform
+- Ansible
+- DevSecOps
+- CI/CD
+- IaC
+- GitOps
+- Clean Code
+- ArgoCD
+- Harbor
+- Helm
+- Prometheus
+- Grafana
+- Keyvault
+- Sealed Secrets
+- Gitlab
+- Azure DevOps
+- Jenkins
+- Java
+- Maven
+- Spring Boot
+- MongoDB
+- Postgres
+- TypeScript
+- Vue
+- Nuxt
+- Tailwind
 
 skills:
-  - Scrum
-  - Kanban
-  - Supportive
-  - Team-oriented
-  - Problem-solving
-  - Reliable
-  - Resilient
-  - English
-  - German
-
-languages:
-  - language: German
-    fluency: Native speaker
-  - language: English
-    fluency: Fluent
+- Scrum
+- Kanban
+- Supportive
+- Team-oriented
+- Problem-solving
+- Reliable
+- Resilient
+- English
+- German

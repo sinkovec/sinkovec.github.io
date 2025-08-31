@@ -14,6 +14,7 @@
     <div class="flex flex-col bg-slate-100 text-primary">
       <ResumeExperienceSection title="Work Experience" :items="work" />
       <ResumeExperienceSection title="Education" :items="education" />
+      <ResumeExperienceSection title="Personal" :items="personal" />
     </div>
   </div>
 </template>
@@ -84,6 +85,25 @@ const education = computed(() =>
       },
       highlights,
       tags: item.courses,
+    }
+  }),
+)
+
+const personal = computed(() => 
+  data.personal.map((item: any) => {
+    return {
+      roles: [
+        {
+          name: item.title
+        }
+      ],
+      organisation: {
+        name: item.repo,
+        url: `${item.url}/${item.repo}`,
+      },
+      summary: item.summary,
+      highlights: item.highlights,
+      tags: item.tags,
     }
   }),
 )

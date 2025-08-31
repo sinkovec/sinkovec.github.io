@@ -35,15 +35,6 @@
             {{ highlight }}
           </div>
         </div>
-        <div class="flex flex-wrap gap-1 pt-1 text-[0.5rem]">
-          <Tag
-            v-for="(tag, tagIndex) in item.tags"
-            :key="tagIndex"
-            class="bg-opacity-[0.075] px-1.5 py-0.5"
-          >
-            {{ tag }}
-          </Tag>
-        </div>
       </div>
     </div>
   </section>
