@@ -27,108 +27,109 @@ basics:
     url: https://linkedin.com/in/brian-sinkovec
 
 work:
-- company: "]init[ AG für digitale Kommunikation"
-  url: https://init.de/en
-  positions:
-  - name: Senior DevOps Engineer
-    startDate: 2024-06-01
-  summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise.
-  highlights:
-  - Designing and implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
-  - Supporting engineers building efficient Gitlab CI pipelines and deploying their application to OKD clusters using Helm, ArgoCD, and GitOps principles
-  - Contributing to the company internal DevOps community on knowledge management and transfer, bridging gaps between development and operations departments
-  tags:
-  - Kubernetes
-  - OKD
-  - Docker
-  - Gitlab
-  - Jenkins
-  - Bash
-  - Linux
-  - Harbor
-  - ArgoCD
-  - Helm
-  - Azure
-  - Prometheus
-  - Grafana
-  - Graylog
-  - SAST
-  - SCA
-  - Maven
-  - Java
-  - Spring Boot
-- company: Arvato Systems GmbH
-  url: https://arvato-systems.com
-  positions:
-  - name: Software Engineer
-    startDate: 2022-03-01
-    endDate: 2024-05-31
-  summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
-  highlights:
-  - Led development of automated APIM deployments with APIOps
-  - Designed and implemented platform services to share technical documents and related products between sales and customers
-  - Promoted continuous improvement of CI/CD pipelines, e.g., reducing deployment time by parallelizing pipeline tasks
-  - Advanced security tooling & awareness through discussions and presentations
-  - Removed manual intervention of Kubernetes secrets by implementing management and automatic rotation of Kubernetes secrets using secrets store CSI driver & keyvault
-  # - Developed REST APIs for technical sales app
-  tags:
-  - Java
-  - Spring Boot
-  - OpenAPI
-  - Azure Api Mangement
-  - Azure
-  - Docker
-  - Kubernetes
-  - Helm
-  - Azure Keyvault
-  - Azure DevOps
-  - CoreMedia
-  - OWASP Dependency Check
-  - SAST
-  - SCA
+  - company: "]init[ AG für digitale Kommunikation"
+    url: https://init.de/en
+    positions:
+      - name: Senior DevOps Engineer 
+        startDate: 2024-06-01
+    summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise. 
+    highlights:
+      - Designing and implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
+      - Supporting engineers building efficient Gitlab CI pipelines and deploying their application to OKD clusters using Helm, ArgoCD, and GitOps principles
+      - Contributing to the company internal DevOps community on knowledge management and transfer, bridging gaps between development and operations departments
+    tags:
+      - Kubernetes
+      - OKD
+      - Docker
+      - Gitlab
+      - Jenkins
+      - Azure DevOps
+      - Bash
+      - Linux
+      - Harbor
+      - ArgoCD
+      - Helm
+      - Azure
+      - Prometheus
+      - Grafana
+      - Graylog
+      - SAST
+      - SCA
+      - Maven
+      - Java
+      - Spring Boot
+  - company: Arvato Systems GmbH
+    url: https://arvato-systems.com
+    positions:
+      - name: Software Engineer
+        startDate: 2022-03-01
+        endDate: 2024-05-31
+    summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
+    highlights:
+      - Developed automated deployments of API Gateways (Azure APIM) with APIOps
+      - Designed and implemented platform services to share technical documents and related products between sales and customers
+      - Promoted continuous improvement and best practices of CI/CD pipelines reducing deployment time and resources
+      - Advanced security tooling and awareness through team discussions and presentations
+      - Removed manual intervention of Kubernetes secrets by implementing management and rotation of Kubernetes secrets using secrets store CSI driver and keyvault
+      # - Developed REST APIs for technical sales app
+    tags:
+      - Java
+      - Spring Boot
+      - OpenAPI
+      - Azure
+      - Azure Api Mangement
+      - Azure Java SDK
+      - Jenkins
+      - Docker
+      - Kubernetes
+      - Helm
+      - Azure Keyvault
+      - Azure DevOps
+      - CoreMedia
+      - OWASP Dependency Check
 
 education:
-- institution: RWTH Aachen University
-  url: https://rwth-aachen.de/
-  area: Computer Science
-  degree: M.Sc.
-  startDate: 2019-10-01
-  endDate: 2023-01-31
-  score: with distinction (1,1); ECTS-grading A
-  thesis: Towards a software engineering view of security for microservice-based applications
-  courses:
-  - IT-Security
-  - Network Security
-  - Security Lab
-  - Advanced Internet Technology
-  - Object-oriented Software Construction
-  - Software Project Management
-  - Software Language Engineering
-  - Operations Research
-  - Functional Programming
-  - Compiler Construction
-  - Complexity Theory
-- institution: FH Aachen - University of Applied Sciences
-  url: https://fh-aachen.de/
-  area: Scientific Programming
-  degree: B.Sc.
-  startDate: 2016-09-01
-  endDate: 2019-08-31
-  score: good (1,5); ECTS-grading B+
-  thesis: Generating time-synchronous, distributed component & connector architectures
-  description: Dual study program (MATSE apprenticeship)
-  courses:
-  - Software Engineering
-  - Algorithms & Data structures
-  - Java
-  - Database Theory
-  - Analysis
-  - Linear Algebra
-  - Data Anaylsis
-  - Data Science
-  - C++
-  - Android Development
-  - Component-based Software Engineering
+  - institution: RWTH Aachen University
+    url: https://rwth-aachen.de/
+    area: Computer Science
+    degree: M.Sc.
+    startDate: 2019-10-01
+    endDate: 2023-01-31
+    score: with distinction (1,1); ECTS-grading A
+    thesis: Towards a software engineering view of security for microservice-based applications
+    courses:
+      - IT-Security
+      - Network Security
+      - Security Lab
+      - Advanced Internet Technology
+      - Object-oriented Software Construction
+      - Software Project Management
+      - Software Language Engineering
+      - Operations Research
+      - Functional Programming
+      - Compiler Construction
+      - Complexity Theory
+  - institution: FH Aachen - University of Applied Sciences
+    url: https://fh-aachen.de/
+    area: Scientific Programming
+    degree: B.Sc.
+    startDate: 2016-09-01
+    endDate: 2019-08-31
+    score: good (1,5); ECTS-grading B+
+    thesis: Generating time-synchronous, distributed component & connector architectures
+    description: Dual study program (MATSE apprenticeship)
+    courses:
+      - Software Engineering
+      - Algorithms & Data structures
+      - Java
+      - Database Theory
+      - Analysis
+      - Linear Algebra
+      - Data Anaylsis
+      - Data Science
+      - C++
+      - Android Development
+      - Component-based Software Engineering
 
 personal:
 - title: Homelab
