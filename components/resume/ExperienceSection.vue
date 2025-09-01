@@ -7,11 +7,11 @@
           <div class="flex justify-between">
             <span class="font-bold">{{ role.name }}</span>
             <div
-              v-if="role.startDate"
+              v-if="role.startDate || role.endDate"
               class="flex self-center gap-0.5 italic text-gray-400"
             >
-              <span>{{ formatDate(role.startDate) }}</span>
-              <span>-</span>
+              <span v-if="role.startDate">{{ formatDate(role.startDate) }}</span>
+              <span v-if="role.startDate">-</span>
               <span v-if="role.endDate">{{ formatDate(role.endDate) }}</span>
               <span v-else>Present</span>
             </div>

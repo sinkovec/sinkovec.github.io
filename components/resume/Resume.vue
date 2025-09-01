@@ -65,10 +65,13 @@ const work = computed(() =>
 
 const education = computed(() =>
   data.education.map((item: any) => {
-    const highlights = [`Score: ${item.score}`, `Thesis: ${item.thesis}`]
+    var highlights = item.highlights
+    if (!highlights) {
+      highlights = [`Score: ${item.score}`, `Thesis: ${item.thesis}`]
 
-    if (item.description) {
-      highlights.push(item.description)
+      if (item.description) {
+        highlights.push(item.description)
+      }
     }
 
     const role = {
