@@ -29,9 +29,9 @@
             :key="hightlightIndex"
             class="flex gap-1"
           >
-            <span class="translate-y-0.5"
-              ><Icon name="fa6-solid:angle-right"
-            /></span>
+            <span class="translate-y-0.5">
+              <Icon name="fa6-solid:angle-right"/>
+            </span>
             {{ highlight }}
           </div>
         </div>

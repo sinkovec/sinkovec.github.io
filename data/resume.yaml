@@ -34,9 +34,11 @@ work:
     startDate: 2024-06-01
   summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise.
   highlights:
-  - Designing and implementing highly automated CI/CD pipelines in the development cloud of the German Federal Centre for Information Technology (ITZBund)
-  - Supporting engineers building efficient Gitlab CI pipelines and deploying their application to OKD clusters using Helm, ArgoCD, and GitOps principles
-  - Contributing to the company internal DevOps community on knowledge management and transfer, bridging gaps between development and operations departments
+  - Designing and implementing automated CI/CD golden path pipelines for multiple development teams working with various technologies including Maven, Node, Docker, Helm, Kubernetes
+  - Guiding developers for standardized best practices, e.g., versioning, Git workflows, processes
+  - Troubleshooting and remediating infrastructure-related incidents and bugs
+  - Supporting engineers adopting ArgoCD and GitOps to deploy their apps to OKD and RKE2
+  - Coordinating and mentoring junior and professional developers and DevOps colleagues
   tags:
   - Kubernetes
   - OKD
@@ -66,12 +68,10 @@ work:
     endDate: 2024-05-31
   summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
   highlights:
-  - Developed automated deployments of API Gateways (Azure APIM) with APIOps
+  - Developed automated deployments of API Gateways (APIM) configurations with APIOps
+  - Removed manual intervention of Kubernetes secrets by implementing management and rotation of Kubernetes secrets using secrets store CSI driver and Keyvault
   - Designed and implemented platform services to share technical documents and related products between sales and customers
   - Promoted continuous improvement and best practices of CI/CD pipelines reducing deployment time and resources
-  - Advanced security tooling and awareness through team discussions and presentations
-  - Removed manual intervention of Kubernetes secrets by implementing management and rotation of Kubernetes secrets using secrets store CSI driver and keyvault
-  # - Developed REST APIs for technical sales app
   tags:
   - Java
   - Spring Boot
@@ -89,14 +89,14 @@ work:
   - OWASP Dependency Check
 
 education:
-- institution: iSAQB
+- institution: iSAQB®
   url: https://www.isaqb.org/
   area: Certified Professional for Software Architecture
   degree: Foundation Level
   endDate: 2025-05-19
   highlights:
   - Foundational knowledge about software architecture design
-  - Documentation, decision-making, and tradeoff analysis methodologies with arc42
+  - Documentation, decision-making, and tradeoff analysis methodologies
 - institution: RWTH Aachen University
   url: https://rwth-aachen.de/
   area: Computer Science
@@ -139,62 +139,91 @@ education:
   - Android Development
   - Component-based Software Engineering
 
-personal:
+projects:
 - title: Kubernetes homelab
   repo: sinkovec/homelab
   url: https://github.com
-  summary: A self-hosted Kuberntes cluster running open-source apps for personal use and to tinker with cloud-native tools
+  summary: A self-hosted Talos Linux Kubernetes cluster running open-source apps for personal use and to tinker with cloud-native tools.
   highlights:
-  - Built on a Raspberry Pi 4 and k3s, then scaled to a HP Elitedesk 800 G4 running Talos Linux
-  - Based on GitOps and automation principles using FluxCD, Helm, Kustomize, and Terraform
-  - OIDC authentication with Authentik to kube-apiserver and hosted apps
-  - Continuous monitoring, policy, and security auditing with Prometheus, Kyverno, Trivy
-  - Automated patching with Renovate bot
+  - Built on GitOps principles using FluxCD, Helm, Kustomize, and Terraform
+  - Integrated OIDC authentication with Authentik to kube-apiserver and hosted apps
+  - Continuous monitoring, policy and security auditing with Prometheus, Kyverno, Trivy
+  - Automated and continuous patching with Renovate bot
+  tags:
+- title: Homepage and Resume
+  repo: sinkovec/sinkovec.github.io
+  url: https://github.com
+  summary: A personal website and resume built with Nuxt and Tailwind, hosted on Github Pages.
+  highlights:
   tags:
 
 
-tech:
-- Bash
-- Python
-- Git
-- Kubernetes
-- Docker
-- Linux
-- Azure
-- Terraform
-- Ansible
-- DevSecOps
-- CI/CD
-- IaC
-- GitOps
-- Clean Code
-- ArgoCD
-- Harbor
-- Helm
-- Prometheus
-- Grafana
-- Keyvault
-- Sealed Secrets
-- Gitlab
-- Azure DevOps
-- Jenkins
-- Java
-- Maven
-- Spring Boot
-- MongoDB
-- Postgres
-- TypeScript
-- Vue
-- Nuxt
-- Tailwind
-
 skills:
-- Scrum
-- Kanban
-- Supportive
-- Team-oriented
-- Problem-solving
-- Reliable
-- Resilient
-- English
-- German
+- category: Programming
+  icon: codicon:code
+  tags:
+  - Bash
+  - Python
+  - Java
+  - TypeScript
+- category: Cloud
+  icon: codicon:cloud
+  tags:
+  - Kubernetes
+  - Docker
+  - Linux
+  - Azure
+  - Helm
+  - Kustomize
+  - Terraform
+  - Ansible
+  - ArgoCD
+  - Flux
+  - Rancher
+  - OKD
+  - Harbor
+  - Trivy
+  - Nginx
+  - Kyverno
+  - Prometheus
+  - Grafana
+  - Keyvault
+  - Sealed Secrets
+  - Tailscale
+- category: CI/CD
+  icon: codicon:rocket
+  tags:
+  - Gitlab CI
+  - Azure DevOps
+  - Jenkins
+  - Github Actions
+  - Sonarqube
+  - Renovate
+- category: Development
+  icon: codicon:debug
+  tags:
+  - Git
+  - Spring Boot
+  - Nuxt
+  - Tailwind
+  - FastAPI
+  - Maven
+  - OIDC
+  - Postgres
+  - MongoDB
+- category: Principles
+  icon: codicon:lightbulb-empty
+  tags:
+  - DevSecOps
+  - GitOps
+  - IaC
+  - Architecture
+  - Clean Code
+  - arc42
+  - Scrum
+  - Kanban
+- category: Languages
+  icon: codicon:globe
+  tags:
+  - English
+  - German

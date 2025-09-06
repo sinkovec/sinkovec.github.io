@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-[33%_67%] min-h-full">
+  <div class="grid grid-rows-[18%_82%] grid-cols-[30%_70%] h-full">
     <ResumeBioPhoto class="bg-primary" />
     <ResumeHeader
       :name="data.basics.name"
@@ -8,13 +8,12 @@
     />
     <div class="flex flex-col gap-4 bg-primary text-slate-100">
       <ResumeContactSection :contact="contact" />
-      <ResumeTagSection title="Technical" :items="data.tech" />
-      <ResumeTagSection title="Soft Skills" :items="data.skills" />
+      <ResumeTagSection title="Skills" :items="data.skills" />
     </div>
     <div class="flex flex-col bg-slate-100 text-primary">
       <ResumeExperienceSection title="Work Experience" :items="work" />
       <ResumeExperienceSection title="Education" :items="education" />
-      <ResumeExperienceSection title="Personal" :items="personal" />
+      <ResumeExperienceSection title="Personal Projects" :items="projects" />
     </div>
   </div>
 </template>
@@ -67,11 +66,7 @@ const education = computed(() =>
   data.education.map((item: any) => {
     var highlights = item.highlights
     if (!highlights) {
-      highlights = [`Score: ${item.score}`, `Thesis: ${item.thesis}`]
-
-      if (item.description) {
-        highlights.push(item.description)
-      }
+      highlights = [`Score: ${item.score}`]
     }
 
     const role = {
@@ -92,8 +87,8 @@ const education = computed(() =>
   }),
 )
 
-const personal = computed(() => 
-  data.personal.map((item: any) => {
+const projects = computed(() => 
+  data.projects.map((item: any) => {
     return {
       roles: [
         {

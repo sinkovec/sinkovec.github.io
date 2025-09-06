@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col p-8 gap-2 lowercase">
+  <div class="flex flex-col p-10 gap-2 lowercase">
     <div class="flex gap-4 text-7xl">
       <span
         v-for="(item, index) in names"
