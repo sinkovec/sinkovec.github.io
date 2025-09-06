@@ -66,7 +66,7 @@ const education = computed(() =>
   data.education.map((item: any) => {
     let highlights = item.highlights
     if (!highlights) {
-      highlights = [`Score: ${item.score}`]
+      highlights = [`Score: ${item.score}`, `Thesis: ${item.thesis}`]
     }
 
     const role = {
