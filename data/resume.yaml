@@ -23,7 +23,7 @@ basics:
     url: https://www.github.com/sinkovec
   - network: LinkedIn
     icon: fa6-brands:linkedin
-    username: brian-sinkovec
+    username: sinkovec
     url: https://linkedin.com/in/brian-sinkovec
 
 work:
@@ -166,7 +166,7 @@ skills:
   - Python
   - Java
   - TypeScript
-- category: Cloud
+- category: Cloud & Infrastructure
   icon: codicon:cloud
   tags:
   - Kubernetes
