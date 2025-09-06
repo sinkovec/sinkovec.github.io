@@ -10,9 +10,13 @@
               v-if="role.startDate || role.endDate"
               class="flex self-center gap-0.5 italic text-gray-400"
             >
-              <span v-if="role.startDate">{{ formatDate(role.startDate) }}</span>
+              <span v-if="role.startDate">
+                {{ formatDate(role.startDate) }}
+              </span>
               <span v-if="role.startDate">-</span>
-              <span v-if="role.endDate">{{ formatDate(role.endDate) }}</span>
+              <span v-if="role.endDate">
+                {{ formatDate(role.endDate) }}
+              </span>
               <span v-else>Present</span>
             </div>
           </div>
@@ -30,7 +34,7 @@
             class="flex gap-1"
           >
             <span class="translate-y-0.5">
-              <Icon name="fa6-solid:angle-right"/>
+              <Icon name="fa6-solid:angle-right" />
             </span>
             {{ highlight }}
           </div>

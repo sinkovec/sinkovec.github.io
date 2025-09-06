@@ -64,7 +64,7 @@ const work = computed(() =>
 
 const education = computed(() =>
   data.education.map((item: any) => {
-    var highlights = item.highlights
+    let highlights = item.highlights
     if (!highlights) {
       highlights = [`Score: ${item.score}`]
     }
@@ -87,13 +87,13 @@ const education = computed(() =>
   }),
 )
 
-const projects = computed(() => 
+const projects = computed(() =>
   data.projects.map((item: any) => {
     return {
       roles: [
         {
-          name: item.title
-        }
+          name: item.title,
+        },
       ],
       organisation: {
         name: item.repo,
