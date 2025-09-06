@@ -15,15 +15,15 @@ basics:
   profiles:
   - network: Website
     icon: material-symbols:globe
-    username: briansinkovec.dev
+    title: briansinkovec.dev
     url: https://briansinkovec.dev
   - network: GitHub
     icon: fa6-brands:github
-    username: sinkovec
+    title: Github
     url: https://www.github.com/sinkovec
   - network: LinkedIn
     icon: fa6-brands:linkedin
-    username: sinkovec
+    title: LinkedIn
     url: https://linkedin.com/in/brian-sinkovec
 
 work:

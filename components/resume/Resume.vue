@@ -35,9 +35,9 @@ const contact = computed(() => {
   ]
 
   data.basics.profiles.forEach(
-    (profile: { username: string; icon: string; url: string }) => {
+    (profile: { title: string; icon: string; url: string }) => {
       result.push({
-        text: profile.username,
+        text: profile.title,
         icon: profile.icon,
         link: profile.url,
       })
