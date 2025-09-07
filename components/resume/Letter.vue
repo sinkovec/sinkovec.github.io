@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col p-8 gap-8 bg-slate-100 text-sm text-primary min-h-full">
+  <div
+    class="flex flex-col p-8 gap-8 bg-slate-100 text-sm text-primary min-h-full"
+  >
     <div class="flex flex-col italic text-right text-gray-400">
       <span class="font-semibold not-italic">{{ basics.name }}</span>
       <span>{{ basics.location.address }}</span>
