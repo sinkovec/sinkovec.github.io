@@ -1,24 +1,22 @@
 <template>
-  <ContentList path="blog" :query="query">
-    <template #default="{ list }">
-      <div class="flex flex-col gap-4">
-        <div v-for="post in list" :key="post._path" class="flex justify-center">
-          <NuxtLink :to="post._path">
-            <span class="text-xl py-4">{{ post.title }}</span>
-          </NuxtLink>
-        </div>
+  <template v-if="posts">
+    <div class="flex flex-col gap-4">
+      <div v-for="post in posts" :key="post.path" class="flex justify-center">
+        <NuxtLink :to="post.path">
+          <span class="text-xl py-4">{{ post.title }}</span>
+        </NuxtLink>
       </div>
-    </template>
-    <template #not-found>
-      <div class="flex justify-center">
-        <p>Coming soon...</p>
-      </div>
-    </template>
-  </ContentList>
+    </div>
+  </template>
+  <template v-else>
+    <div class="flex justify-center">
+      <p>Coming soon...</p>
+    </div>
+  </template>
 </template>
 
 <script lang="ts" setup>
-import type { QueryBuilderParams } from '@nuxt/content';
-
-const query: QueryBuilderParams = { sort: [{ date: -1 }] }
+const { data: posts } = await useAsyncData('blog', () => queryCollection('blog').order('date', 'DESC').all())
 </script>
+
+

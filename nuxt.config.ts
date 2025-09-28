@@ -20,10 +20,13 @@ export default defineNuxtConfig({
   css: ['assets/css/main.css'],
 
   content: {
-    contentHead: false,
-    highlight: {
-      theme: 'github-dark',
-    },
+    build: {
+      markdown: {
+        highlight: {
+          theme: 'github-dark',
+        },
+      },
+    },    
   },
 
   tailwindcss: {
