@@ -1,5 +1,5 @@
 <template>
-  <template v-if="posts">
+  <template v-if="posts?.length">
     <div class="flex flex-col gap-4">
       <div v-for="post in posts" :key="post.path" class="flex justify-center">
         <NuxtLink :to="post.path">

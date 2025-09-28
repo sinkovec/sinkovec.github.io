@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: { typeCheck: true },
   modules: [
-    '@nuxtjs/eslint-module',
+    //'@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxt/image',
@@ -29,15 +29,9 @@ export default defineNuxtConfig({
     },    
   },
 
-  tailwindcss: {
-    config: {
-      plugins: [require('@tailwindcss/typography')],
-    },
-  },
-
   vite: {
     plugins: [ViteYaml()],
   },
 
-  compatibilityDate: '2024-10-12',
+  compatibilityDate: '2025-09-28',
 })
