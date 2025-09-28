@@ -1,5 +1,5 @@
 <template>
-  <ContentList :query="query">
+  <ContentList path="blog" :query="query">
     <template #default="{ list }">
       <div class="flex flex-col gap-4">
         <div v-for="post in list" :key="post._path" class="flex justify-center">
@@ -18,5 +18,7 @@
 </template>
 
 <script lang="ts" setup>
-const query = { path: 'blog', sort: [{ date: -1 }] }
+import type { QueryBuilderParams } from '@nuxt/content';
+
+const query: QueryBuilderParams = { sort: [{ date: -1 }] }
 </script>
