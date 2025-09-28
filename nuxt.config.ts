@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: { typeCheck: true },
   modules: [
-    //'@nuxtjs/eslint-module',
+    '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxt/image',
