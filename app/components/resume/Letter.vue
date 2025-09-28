@@ -30,7 +30,9 @@
       <span>{{ data.company.location.region }}</span>
     </div>
     <div class="flex justify-between">
-      <span class="text-base font-bold">Application as {{ data.position }}</span>
+      <span class="text-base font-bold"
+        >Application as {{ data.position }}</span
+      >
       <span class="italic">{{ moment().format('MMM D, YYYY') }}</span>
     </div>
     <span>Dear Sir or Madam,</span>

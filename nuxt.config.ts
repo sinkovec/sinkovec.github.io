@@ -26,7 +26,7 @@ export default defineNuxtConfig({
           theme: 'github-dark',
         },
       },
-    },    
+    },
   },
 
   vite: {

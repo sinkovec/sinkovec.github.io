@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts" setup>
-const { data: posts } = await useAsyncData('blog', () => queryCollection('blog').order('date', 'DESC').all())
+const { data: posts } = await useAsyncData('blog', () =>
+  queryCollection('blog').order('date', 'DESC').all(),
+)
 </script>
-
-
