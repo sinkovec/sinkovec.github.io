@@ -35,7 +35,8 @@ work:
   summary: Contributing to the german public sector digitization in the area of DevOps and automation within the cloud and on premise.
   highlights:
   - Designing and implementing automated CI/CD golden path pipelines for multiple development teams working with various technologies including Maven, Node, Docker, Helm, Kubernetes
-  - Guiding developers for standardized best practices, e.g., versioning, Git workflows, processes
+  - Leading, documenting, and guiding developers for standardized best practices, e.g., versioning, Git workflows, processes
+  - Initiating development of an internal development platform to provide developer self-services
   - Troubleshooting and remediating infrastructure-related incidents and bugs
   - Supporting engineers adopting ArgoCD and GitOps to deploy their apps to OKD and RKE2
   - Coordinating and mentoring junior and professional developers and DevOps colleagues
@@ -69,7 +70,7 @@ work:
   summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
   highlights:
   - Developed automated deployments of API Gateways (APIM) configurations with APIOps
-  - Removed manual intervention of Kubernetes secrets by implementing management and rotation of Kubernetes secrets using secrets store CSI driver and Keyvault
+  - Automated management of Kubernetes secrets using secrets store CSI driver and Keyvault
   - Designed and implemented platform services to share technical documents and related products between sales and customers
   - Promoted continuous improvement and best practices of CI/CD pipelines reducing deployment time and resources
   tags:
@@ -143,11 +144,12 @@ projects:
 - title: Kubernetes homelab
   repo: sinkovec/homelab
   url: https://github.com
-  summary: A self-hosted Talos Linux Kubernetes cluster running open-source apps for personal use and to tinker with cloud-native tools.
+  summary: A self-hosted Talos Linux Kubernetes cluster running open-source apps for personal use.
   highlights:
   - Built on GitOps principles using FluxCD, Helm, Kustomize, and Terraform
   - Integrated OIDC authentication with Authentik to kube-apiserver and hosted apps
   - Continuous monitoring, policy and security auditing with Prometheus, Kyverno, Trivy
+  - RDBMS with CloudNativePG, scheduled database and volume backups to S3 using k8up
   - Automated and continuous patching with Renovate bot
   tags:
 - title: Homepage and Resume
