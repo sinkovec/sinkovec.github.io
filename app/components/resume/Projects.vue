@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col p-8 bg-slate-100 text-primary">
+  <div class="flex flex-col p-8 bg-neutral-50 text-primary">
     <ResumeExperienceSection
       title="Professional Projects"
       :items="professional"

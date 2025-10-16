@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col p-8 gap-8 bg-slate-100 text-sm text-primary min-h-full"
+    class="flex flex-col p-8 gap-8 bg-neutral-50 text-sm text-primary min-h-full"
   >
     <div class="flex flex-col italic text-right text-gray-400">
       <span class="font-semibold not-italic">{{ basics.name }}</span>
@@ -16,7 +16,7 @@
         class="flex items-center gap-1.5 justify-end"
       >
         <Icon :name="item.icon" />
-        <span>{{ item.username }}</span>
+        <span>{{ item.url.substring(item.url.lastIndexOf('/') + 1) }}</span>
       </NuxtLink>
     </div>
     <div class="flex flex-col">

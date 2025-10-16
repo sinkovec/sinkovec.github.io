@@ -1,6 +1,9 @@
 <template>
   <section class="flex flex-col">
-    <ResumeSectionTitle :title="title" class="bg-primary text-slate-100 px-4" />
+    <ResumeSectionTitle
+      :title="title"
+      class="bg-primary text-neutral-50 px-4"
+    />
     <div class="flex flex-col px-4 pt-2 pb-4 gap-4 text-xs">
       <div v-for="(item, index) in items" :key="index" class="flex flex-col">
         <div v-for="(role, roleIndex) in item.roles" :key="roleIndex">

@@ -4,13 +4,13 @@
     <ResumeHeader
       :name="data.basics.name"
       :label="data.basics.label"
-      class="bg-slate-100 text-primary"
+      class="bg-neutral-50 text-primary"
     />
-    <div class="flex flex-col gap-4 bg-primary text-slate-100">
+    <div class="flex flex-col gap-4 bg-primary text-neutral-50">
       <ResumeContactSection :contact="contact" />
       <ResumeTagSection title="Skills" :items="data.skills" />
     </div>
-    <div class="flex flex-col bg-slate-100 text-primary">
+    <div class="flex flex-col bg-neutral-50 text-primary">
       <ResumeExperienceSection title="Work Experience" :items="work" />
       <ResumeExperienceSection title="Education" :items="education" />
       <ResumeExperienceSection title="Personal Projects" :items="projects" />
