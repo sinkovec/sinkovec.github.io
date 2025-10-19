@@ -6,7 +6,7 @@
       :label="data.basics.label"
       class="bg-neutral-50 text-primary"
     />
-    <div class="flex flex-col gap-4 bg-primary text-neutral-50">
+    <div class="flex flex-col gap-2 bg-primary text-neutral-50">
       <ResumeContactSection :contact="contact" />
       <ResumeTagSection title="Skills" :items="data.skills" />
     </div>
@@ -33,6 +33,14 @@ const contact = computed(() => {
       link: 'mailto:' + data.basics.email,
     },
   ]
+
+  if (data.basics.phone) {
+    result.push({
+      text: data.basics.phone,
+      icon: 'fa6-solid:phone',
+      link: 'tel:' + data.basics.phone,
+    })
+  }
 
   data.basics.profiles.forEach(
     (profile: { title: string; icon: string; url: string }) => {

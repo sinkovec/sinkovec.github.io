@@ -4,7 +4,7 @@
       :title="title"
       class="bg-neutral-50 text-primary text-center"
     />
-    <div class="flex flex-col gap-1 pt-2 text-xs">
+    <div class="flex flex-col pt-2 text-xs">
       <div v-for="(item, index) in items" :key="index" class="flex flex-col">
         <div class="mb-1">
           <span
