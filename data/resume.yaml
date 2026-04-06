@@ -94,9 +94,11 @@ work:
   - name: Early Career & Dual Studies
     startDate: 2016-09-01
     endDate: 2023-01-31
-  summary: Parallel to B.Sc. and M.Sc. degrees: 5+ years of practical experience as a dual and working student at university and various companies.
+  summary: 5+ years of practical experience as working student at university and various companies parallel to B.Sc. and M.Sc. degrees. 
   highlights:
   - Developed full-stack applications (Java, Spring Boot, CoreMedia) and initiated CI/CD automations
+  - Gained foundational experience in Kubernetes, DevOps, and cloud workloads
+  - Contributed to implementations in software engineering research projects
 
 education:
 - institution: iSAQB®
