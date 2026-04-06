@@ -38,8 +38,8 @@ work:
   - Leading, documenting, and guiding developers for standardized best practices, e.g., versioning, Git workflows, processes
   - Initiating development of an internal development platform to provide developer self-services
   - Troubleshooting and remediating infrastructure-related incidents and bugs
-  - Supporting engineers adopting ArgoCD and GitOps to deploy their apps to OKD and RKE2
-  - Coordinating and mentoring junior and professional developers and DevOps colleagues
+  - Supporting engineers adopting ArgoCD and GitOps flow to deploy their apps to OKD and RKE2
+  - Coordinating and mentoring junior and professional developers to DevOps best practices
   tags:
   - Kubernetes
   - OKD
@@ -152,22 +152,9 @@ projects:
   - RDBMS with CloudNativePG, scheduled database and volume backups to S3 using k8up
   - Automated and continuous patching with Renovate bot
   tags:
-- title: Homepage and Resume
-  repo: sinkovec/sinkovec.github.io
-  url: https://github.com
-  summary: A personal website and resume built with Nuxt and Tailwind, hosted on Github Pages.
-  highlights:
-  tags:
 
 
 skills:
-- category: Programming
-  icon: codicon:code
-  tags:
-  - Bash
-  - Python
-  - Java
-  - TypeScript
 - category: Cloud & Infrastructure
   icon: codicon:cloud
   tags:
@@ -178,11 +165,9 @@ skills:
   - Helm
   - Kustomize
   - Terraform
-  - Ansible
   - ArgoCD
   - Flux
   - Rancher
-  - OKD
   - Harbor
   - Trivy
   - Nginx
@@ -191,7 +176,6 @@ skills:
   - Grafana
   - Keyvault
   - Sealed Secrets
-  - Tailscale
 - category: CI/CD
   icon: codicon:rocket
   tags:
@@ -201,9 +185,13 @@ skills:
   - Github Actions
   - Sonarqube
   - Renovate
-- category: Development
-  icon: codicon:debug
+- category: Programming
+  icon: codicon:code
   tags:
+  - Bash
+  - Python
+  - Java
+  - TypeScript
   - Git
   - Spring Boot
   - Nuxt
