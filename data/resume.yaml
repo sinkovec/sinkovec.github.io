@@ -72,7 +72,7 @@ work:
   - Developed automated deployments of API Gateways (APIM) configurations with APIOps
   - Automated management of Kubernetes secrets using secrets store CSI driver and Keyvault
   - Designed and implemented platform services to share technical documents and related products between sales and customers
-  - Promoted continuous improvement and best practices of CI/CD pipelines reducing deployment time and resources
+  - Promoted CI/CD best practices reducing deployment time and resources
   tags:
   - Java
   - Spring Boot
@@ -98,7 +98,6 @@ work:
   highlights:
   - Developed full-stack applications (Java, Spring Boot, CoreMedia) and initiated CI/CD automations
   - Gained foundational experience in Kubernetes, DevOps, and cloud workloads
-  - Contributed to implementations in software engineering research projects
 
 education:
 - institution: iSAQB®
