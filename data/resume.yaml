@@ -65,7 +65,7 @@ work:
   url: https://arvato-systems.com
   positions:
   - name: Software Engineer
-    startDate: 2022-03-01
+    startDate: 2023-02-01
     endDate: 2024-05-31
   summary: Built and maintained features to improve customer and developer experience for a CoreMedia CMS platform hosted on Microsoft Azure.
   highlights:
@@ -88,6 +88,15 @@ work:
   - Azure DevOps
   - CoreMedia
   - OWASP Dependency Check
+- company: 
+  url: 
+  positions:
+  - name: Early Career & Dual Studies
+    startDate: 2016-09-01
+    endDate: 2023-01-31
+  summary: Parallel to B.Sc. and M.Sc. degrees: 5+ years of practical experience as a dual and working student at university and various companies.
+  highlights:
+  - Developed full-stack applications (Java, Spring Boot, CoreMedia) and initiated CI/CD automations
 
 education:
 - institution: iSAQB®
