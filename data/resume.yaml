@@ -95,7 +95,7 @@ work:
     endDate: 2023-01-31
   summary: Gained practical experience as working student at various companies parallel to B.Sc./M.Sc. degrees. 
   highlights:
-  - Developed full-stack applications (Java, Spring Boot, CoreMedia) and initiated CI/CD automations
+  - Developed full-stack applications (Java, Spring Boot) and initiated CI/CD automations
   - Gained foundational experience in Kubernetes, DevOps, and cloud workloads
 
 education:
